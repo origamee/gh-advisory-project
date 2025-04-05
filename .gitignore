@@ -1,0 +1,11 @@
+# Ignore advisory outputs
+advisories/
+zips/
+*.zip
+*.csv
+
+# Python artifacts
+__pycache__/
+*.pyc
+.env
+
