@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cj7v-w2c7-cp7c",
+  "modified": "2025-03-27T21:13:49Z",
+  "published": "2025-03-14T18:30:51Z",
+  "aliases": [
+    "CVE-2024-29409"
+  ],
+  "summary": "nest allows a remote attacker to execute arbitrary code via the Content-Type header",
+  "details": "File Upload vulnerability in nestjs nest v.11.0.11 allows a remote attacker to execute arbitrary code via the Content-Type header.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@nestjs/common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "11.0.11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-29409"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nestjs/nest/issues/13311#issuecomment-1993839495"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/aydinnyunus/801342361584d1491c67a820a714f53f"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/nestjs/nest"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nestjs/nest/blob/83a48b2c7396985144b7a6cd5d3bee1abb7c5d81/packages/common/pipes/file/file-type.validator.ts#L19"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-03-27T21:13:49Z",
+    "nvd_published_at": "2025-03-14T18:15:27Z"
+  }
+}

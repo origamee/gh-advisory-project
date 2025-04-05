@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-m4wj-hhwj-47qp",
+  "modified": "2025-04-01T19:06:18Z",
+  "published": "2025-04-01T00:30:33Z",
+  "aliases": [
+    "CVE-2025-31675"
+  ],
+  "summary": "Drupal Core Cross-Site Scripting (XSS) Vulnerability",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Drupal Drupal core allows Cross-Site Scripting (XSS).This issue affects Drupal core: from 8.0.0 before 10.3.14, from 10.4.0 before 10.4.5, from 11.0.0 before 11.0.13, from 11.1.0 before 11.1.5.",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N/E:U"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "drupal/core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.0.0"
+            },
+            {
+              "fixed": "10.3.14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "drupal/core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10.4.0"
+            },
+            {
+              "fixed": "10.4.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "drupal/core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11.0.0"
+            },
+            {
+              "fixed": "11.0.13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "drupal/core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11.1.0"
+            },
+            {
+              "fixed": "11.1.5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31675"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/drupal/core"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.drupal.org/sa-core-2025-004"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-04-01T19:06:18Z",
+    "nvd_published_at": "2025-03-31T22:15:20Z"
+  }
+}
