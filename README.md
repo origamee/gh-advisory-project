@@ -1,4 +1,4 @@
-# GitHub Advisory Zipper
+# GitHub Advisory Project
 
 This script loads security advisories from the [GitHub Advisory Database](https://github.com/github/advisory-database), classifies them by severity, saves them into folders, and creates zip archives per severity level.
 
