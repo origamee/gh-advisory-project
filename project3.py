@@ -4,6 +4,7 @@ import json
 from collections import defaultdict
 import zipfile
 import csv
+import requests
 
 def main():
     # STEP 1: Load local advisories
@@ -22,13 +23,21 @@ def main():
     
     # Create ZIP archives for each severity category
     zip_advisory_folders(input_dir="advisories", output_dir="zips")
-
+    
+    ''' THIS ENTIRE section if for the NO KEV option
     # STEP 4: Optionally load KEV CVE list (can be empty for now)
-    kev_set = set()  # You can fill this later via a KEV fetch function
-
+    #kev_set = set()  # You can fill this later via a KEV fetch function
     # STEP 5: Generate CSV report
     write_csv(classified, kev_set, output_file="advisories.csv")
     print("📄 advisories.csv generated.")
+    '''
+
+    # STEP 4a: Fetch KEV CVE set
+    kev_set = fetch_kev_cves()
+    
+    # STEP 5: Generate CSV report with KEV flag
+    write_csv(classified, kev_set, output_file="advisories_kev.csv")
+    print("📄 advisories.csv generated with KEV flag.")
 
 
 def load_local_advisories(base_path="advisory-database/advisories/github-reviewed"):
@@ -89,6 +98,27 @@ def zip_advisory_folders(input_dir="advisories", output_dir="zips"):
                     zipf.write(file_path, arcname)
                     
         print(f"✅ Created: {zip_filename}")
+
+def fetch_kev_cves():
+    kev_url = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+    
+    try:
+        response = requests.get(kev_url)
+        response.raise_for_status()
+        kev_data = response.json()
+
+        kev_cves = {
+            item["cveID"]
+            for item in kev_data.get("vulnerabilities", [])
+            if "cveID" in item
+        }
+
+        print(f"🛡️ Loaded {len(kev_cves)} CVEs from KEV catalog.")
+        return kev_cves
+
+    except Exception as e:
+        print(f"⚠️ Failed to fetch KEV data: {e}")
+        return set()
 
 
 def write_csv(classified, kev_set, output_file="advisories.csv"):
