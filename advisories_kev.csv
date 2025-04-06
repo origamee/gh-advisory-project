@@ -298,9 +298,9 @@ GHSA-x5jm-rj37-5qh7,CVE-2019-1003005,HIGH,org.jenkins-ci.plugins:script-security
 GHSA-j6f7-hghw-g437,CVE-2016-9964,HIGH,bottle,PyPI,bottle.py vulnerable to CRLF Injection,
 GHSA-w47p-5q88-hj5g,CVE-2016-0709,HIGH,org.apache.portals.jetspeed-2:jetspeed,Maven,Path Traversal in Apache Jetspeed,
 GHSA-4hhq-j3xw-wj89,CVE-2020-2189,HIGH,io.jenkins.plugins:scm-filter-jervis,Maven,RCE vulnerability in SCM Filter Jervis Plugin,
-GHSA-xjgh-84hx-56c5,CVE-2017-12617,HIGH,org.apache.tomcat:tomcat,Maven,Unrestricted Upload of File with Dangerous Type Apache Tomcat,1
+GHSA-xjgh-84hx-56c5,CVE-2017-12617,HIGH,org.apache.tomcat:tomcat,Maven,Unrestricted Upload of File with Dangerous Type Apache Tomcat,
 GHSA-rcv6-7hmv-fj7h,CVE-2018-14521,HIGH,aubio,PyPI,Aubio is vulnerable to denial of service via aubio_source_avcodec_readframe function,
-GHSA-5whg-j5fv-xcm2,CVE-2016-7200,HIGH,Microsoft.ChakraCore,NuGet,ChakraCore RCE Vulnerability,1
+GHSA-5whg-j5fv-xcm2,CVE-2016-7200,HIGH,Microsoft.ChakraCore,NuGet,ChakraCore RCE Vulnerability,
 GHSA-3x58-8qmv-wqw5,CVE-2018-14523,HIGH,aubio,PyPI,Aubio is vulnerable to out of bound read when samplerate > 50kHz,
 GHSA-4v2q-hjx3-c4vr,CVE-2019-8154,HIGH,magento/community-edition,Packagist,Magento remote code execution vulnerability,
 GHSA-qvw9-6567-wq78,CVE-2020-15886,HIGH,munkireport/reportdata,Packagist,MunkiReport reportdata module SQL injection vulnerability,
@@ -501,7 +501,7 @@ GHSA-qxmj-3c5h-546c,CVE-2019-0861,HIGH,Microsoft.ChakraCore,NuGet,ChakraCore Mem
 GHSA-68g5-8q7f-m384,CVE-2017-7675,HIGH,org.apache.tomcat:tomcat,Maven,Improper Limitation of a Pathname to a Restricted Directory in Apache Tomcat,
 GHSA-2fc2-6r4j-p65h,CVE-2014-1859,HIGH,numpy,PyPI,Numpy arbitrary file write via symlink attack,
 GHSA-79h8-7735-v3f9,CVE-2020-2276,HIGH,org.jvnet.hudson.plugins:selection-tasks-plugin,Maven,System command execution vulnerability in Selection tasks Jenkins Plugin,
-GHSA-w94p-6mhw-4qxw,CVE-2015-1427,HIGH,org.elasticsearch:elasticsearch,Maven,Improper Access Control in Elasticsearch,1
+GHSA-w94p-6mhw-4qxw,CVE-2015-1427,HIGH,org.elasticsearch:elasticsearch,Maven,Improper Access Control in Elasticsearch,
 GHSA-8w48-m6hx-rjw2,CVE-2011-3587,HIGH,zope2,PyPI,Zope Command Execution Vulnerability,
 GHSA-8f4w-jwqv-5cxc,CVE-2005-3510,HIGH,org.apache.tomcat:tomcat,Maven,Apache Tomcat Vulnerable to Denial of Service (DoS) via Simultaneous Requests,
 GHSA-923w-9p3x-hmgw,CVE-2019-10301,HIGH,org.jenkins-ci.plugins:gitlab-plugin,Maven,Jenkins GitLab Plugin missing permission checks,
@@ -814,7 +814,7 @@ GHSA-4vwv-x3gp-2j4g,CVE-2015-3198,HIGH,org.wildfly:wildfly-parent,Maven,The Unde
 GHSA-wv44-9w69-w43j,CVE-2016-3377,HIGH,Microsoft.ChakraCore,NuGet,ChakraCore RCE Vulnerability,
 GHSA-m3wv-fr8v-fmh7,CVE-2017-1000387,HIGH,org.jenkins-ci.plugins:build-publisher,Maven,Jenkins Build-Publisher plugin has Insufficiently Protected Credentials,
 GHSA-wqmm-q65g-2hqr,CVE-2008-0299,HIGH,paramiko,PyPI,Paramiko Unsafe randomness usage may allow access to sensitive information,
-GHSA-wgw2-wwq8-c7wf,CVE-2018-8298,HIGH,Microsoft.ChakraCore,NuGet,ChakraCore RCE Vulnerability,1
+GHSA-wgw2-wwq8-c7wf,CVE-2018-8298,HIGH,Microsoft.ChakraCore,NuGet,ChakraCore RCE Vulnerability,
 GHSA-ww45-x87c-wgff,CVE-2019-10154,HIGH,moodle/moodle,Packagist,Moodle all messaging conversations could be viewed,
 GHSA-f2h7-4f84-8qrm,CVE-2017-5192,HIGH,salt,PyPI,SaltStack Salt Authentication Bypass when using the local_batch client from salt-api,
 GHSA-vqh4-crjf-jjxx,CVE-2016-1866,HIGH,salt,PyPI,Salt Improper Access Control,
@@ -824,7 +824,7 @@ GHSA-rhwh-jw9h-4m49,CVE-2017-11821,HIGH,Microsoft.ChakraCore,NuGet,ChakraCore RC
 GHSA-xx67-2j3v-h76p,CVE-2018-20717,HIGH,prestashop/prestashop,Packagist,PrestaShop PHP Object Injection,
 GHSA-q263-j3q9-g964,CVE-2017-1000119,HIGH,october/cms,Packagist,October CMS PHP Code Execution,
 GHSA-42gv-77f4-r3j9,CVE-2018-20713,HIGH,shopware/shopware,Packagist,Shopware SQL Injection,
-GHSA-8pqx-3rxx-f5pm,CVE-2015-5317,HIGH,org.jenkins-ci.main:jenkins-core,Maven,Jenkins discloses project names via fingerprints,1
+GHSA-8pqx-3rxx-f5pm,CVE-2015-5317,HIGH,org.jenkins-ci.main:jenkins-core,Maven,Jenkins discloses project names via fingerprints,
 GHSA-mr5m-2385-2vcp,CVE-2020-11610,HIGH,xdlocalstorage,npm,xdlocalstorage does not verify request origin,
 GHSA-c49v-35ff-q9f7,CVE-2020-25750,HIGH,devgroup/dotplant,Packagist,DotPlant2 Improper Restriction of XML External Entity Reference,
 GHSA-hgq9-q8g2-3jmg,CVE-2019-6986,HIGH,org.vivoweb:vitro-project,Maven,Command Injection in VIVO Vitro,
@@ -929,7 +929,7 @@ GHSA-cw6w-4rcx-xphc,CVE-2014-1858,HIGH,numpy,PyPI,Arbitrary file write in NumPy,
 GHSA-gwf7-vfjf-wf6x,CVE-2019-11842,HIGH,matrix-sydent,PyPI,matrix-sydent and matrix-synapse Use Cryptographically Weak PRNG,
 GHSA-p7v9-gjrh-563x,CVE-2018-10891,HIGH,moodle/moodle,Packagist,Moodle XSS Vulnerability,
 GHSA-w3r9-r9w7-8h48,CVE-2019-11939,HIGH,github.com/facebook/fbthrift,Go,Golang Facebook Thrift servers vulnerable to denial of service,
-GHSA-7qwv-cwgj-c8rj,CVE-2006-1547,HIGH,struts:struts,Maven,Improper Input Validation in Apache Struts,1
+GHSA-7qwv-cwgj-c8rj,CVE-2006-1547,HIGH,struts:struts,Maven,Improper Input Validation in Apache Struts,
 GHSA-55j7-f5wf-43m4,CVE-2012-3451,HIGH,org.apache.cxf:cxf,Maven,Remote web-service operation execution in Apache CXF,
 GHSA-c2gg-rrhc-fvvg,CVE-2019-7886,HIGH,magento/community-edition,Packagist,Magento 2 Community Edition Cryptographic Flaw,
 GHSA-h2vm-c85r-5vh5,CVE-2018-7490,HIGH,uWSGI,PyPI,uWSGI Directory Traversal vulnerability,
@@ -1074,7 +1074,7 @@ GHSA-xrpq-63mp-9vcw,CVE-2009-1149,HIGH,phpmyadmin/phpmyadmin,Packagist,phpMyAdmi
 GHSA-wq4c-wm6x-jw44,CVE-2018-7160,HIGH,node-inspector,npm,Withdrawn Advisory: Node.js Inspector RCE via DNS Rebinding,
 GHSA-wrwq-4f2h-qxj8,CVE-2020-2264,HIGH,org.jenkins-ci.plugins:custom-job-icon,Maven,Stored XSS vulnerability in Custom Job Icon Plugin,
 GHSA-83g2-8m93-v3w7,CVE-2021-33194,HIGH,golang.org/x/net,Go,golang.org/x/net/html Infinite Loop vulnerability,
-GHSA-47qp-8v9g-39hp,CVE-2013-2251,HIGH,org.apache.struts:struts2-core,Maven,Code injection in Apache Struts,1
+GHSA-47qp-8v9g-39hp,CVE-2013-2251,HIGH,org.apache.struts:struts2-core,Maven,Code injection in Apache Struts,
 GHSA-hxpw-7x95-q38m,CVE-2017-1000108,HIGH,org.jenkins-ci.plugins:pipeline-input-step,Maven,Jenkins Pipeline: Input Step Plugin,
 GHSA-q886-75m2-vff8,,HIGH,red-discordbot,PyPI,Duplicate Advisory: Unauthorized privilege escalation in Mod module,
 GHSA-f5wx-w2f9-82gh,CVE-2020-2108,HIGH,org.jenkins-ci.plugins:websphere-deployer,Maven,XXE vulnerability in Jenkins WebSphere Deployer Plugin,
@@ -1157,7 +1157,7 @@ GHSA-593c-j348-f3gv,CVE-2008-1393,HIGH,Plone,PyPI,Plone Improper Session Managem
 GHSA-4c42-4rxm-x6qf,CVE-2013-1443,HIGH,Django,PyPI,Django Denial of Service Vulnerability in the authentication framework ,
 GHSA-8qxp-g8jv-p37x,CVE-2019-1003004,HIGH,org.jenkins-ci.main:jenkins-core,Maven,Improper Authorization in Jenkins Core,
 GHSA-2phx-w35g-x9vm,CVE-2016-7038,HIGH,moodle/moodle,Packagist,Moodle Weak Password Recovery Mechanism for Forgotten Password,
-GHSA-g5vf-38cp-4px9,CVE-2020-1147,HIGH,Microsoft.NETCore.App,NuGet,".NET Framework, SharePoint Server, and Visual Studio Remote Code Execution Vulnerability",1
+GHSA-g5vf-38cp-4px9,CVE-2020-1147,HIGH,Microsoft.NETCore.App,NuGet,".NET Framework, SharePoint Server, and Visual Studio Remote Code Execution Vulnerability",
 GHSA-m6h2-634h-jcpj,CVE-2015-5695,HIGH,designate,PyPI,Designate mDNS DoS through incorrect handling of large RecordSets,
 GHSA-h62f-wm92-2cmw,CVE-2017-11468,HIGH,github.com/docker/distribution,Go,Docker Registry has Allocation of Resources Without Limits or Throttling,
 GHSA-rr59-pjwj-6grj,CVE-2020-3719,HIGH,magento/community-edition,Packagist,Magento sql injection vulnerability,
@@ -1231,7 +1231,7 @@ GHSA-vcgj-j8c5-2h52,CVE-2017-2649,HIGH,org.jenkins-ci.plugins:active-directory,M
 GHSA-9r2j-rg24-fvpj,CVE-2020-10963,HIGH,frozennode/administrator,Packagist,FrozenNode Laravel-Administrator unrestricted file upload,
 GHSA-2rh4-xgmq-63jp,CVE-2020-2178,HIGH,com.parasoft:parasoft-findings,Maven,XXE vulnerability in Jenkins Parasoft Findings Plugin,
 GHSA-3vcx-w94h-68vg,CVE-2018-1000055,HIGH,org.jvnet.hudson.plugins:android-lint,Maven,XXE vulnerability in Jenkins Android Lint Plugin,
-GHSA-4f5g-j7wg-7w8j,CVE-2016-7201,HIGH,Microsoft.ChakraCore,NuGet,ChakraCore RCE Vulnerability,1
+GHSA-4f5g-j7wg-7w8j,CVE-2016-7201,HIGH,Microsoft.ChakraCore,NuGet,ChakraCore RCE Vulnerability,
 GHSA-j4gx-p3x5-m987,CVE-2014-1835,HIGH,echor,RubyGems,Echor Ruby Gem credentials can be stolen via process table monitoring,
 GHSA-3j65-2jcq-w9fr,CVE-2018-0933,HIGH,Microsoft.ChakraCore,NuGet,ChakraCore RCE Vulnerability,
 GHSA-4749-p7rx-8jjj,CVE-2015-3220,HIGH,tlslite,PyPI,tlslite remote denial of service vulnerability,
@@ -1441,7 +1441,7 @@ GHSA-ph2j-5hxq-gxrr,CVE-2008-4793,HIGH,drupal/drupal,Packagist,Drupal Node Valid
 GHSA-66p6-7p29-55p9,CVE-2018-14774,HIGH,symfony/symfony,Packagist,Symfony Host Header Injection,
 GHSA-fcgg-rvwg-jv58,CVE-2022-30321,HIGH,github.com/hashicorp/go-getter,Go,HashiCorp go-getter unsafe downloads,
 GHSA-3mv8-x3jj-3j7m,CVE-2018-8511,HIGH,Microsoft.ChakraCore,NuGet,ChakraCore RCE Vulnerability,
-GHSA-vp49-2g4r-m3x3,CVE-2020-11652,HIGH,salt,PyPI,SaltStack Salt is vulnerable Arbitrary Directory Access,1
+GHSA-vp49-2g4r-m3x3,CVE-2020-11652,HIGH,salt,PyPI,SaltStack Salt is vulnerable Arbitrary Directory Access,
 GHSA-2crc-5vq6-386r,CVE-2019-8111,HIGH,magento/community-edition,Packagist,Magento 2 Community Edition RCE Vulnerability,
 GHSA-j569-fghw-f9rx,CVE-2018-16876,HIGH,ansible,PyPI,Ansible sensitive information disclosure,
 GHSA-vr4j-gj8q-m89v,CVE-2016-7189,HIGH,Microsoft.ChakraCore,NuGet,ChakraCore RCE Vulnerability,
@@ -1653,7 +1653,7 @@ GHSA-336h-q7mh-8vf8,CVE-2017-17516,HIGH,rtv,PyPI,Reddit Terminal Viewer (RTV) vu
 GHSA-xm92-rf24-h74w,CVE-2008-5518,HIGH,org.apache.geronimo.plugins:console,Maven,Apache Geronimo Application Server multiple directory traversal vulnerabilities,
 GHSA-4225-97pr-rr52,CVE-2021-38155,HIGH,keystone,PyPI,OpenStack Keystone allows information disclosure during account locking,
 GHSA-vg4f-8v9q-5c3x,CVE-2018-1000165,HIGH,lightsaml/lightsaml,Packagist,LightSAML Incorrect Access Control vulnerability,
-GHSA-4wrr-9h5r-m92w,CVE-2012-0391,HIGH,org.apache.struts:struts2-core,Maven,Apache Struts Remote Java Code Execution,1
+GHSA-4wrr-9h5r-m92w,CVE-2012-0391,HIGH,org.apache.struts:struts2-core,Maven,Apache Struts Remote Java Code Execution,
 GHSA-qm4x-ch5w-gr62,CVE-2014-2055,HIGH,sabre/dav,Packagist,XXE in SabreDAV,
 GHSA-gxg6-rc6c-v673,CVE-2016-2510,HIGH,org.apache-extras.beanshell:bsh,Maven,Improper Input Validation in BeanShell,
 GHSA-pm9x-4392-2c2p,CVE-2017-0901,HIGH,rubygems-update,RubyGems,RubyGems may allow a maliciously crafted gem to overwrite files,
@@ -1756,7 +1756,7 @@ GHSA-4v96-m8xv-x83v,CVE-2021-26073,HIGH,atlassian-connect-express,npm,Broken Aut
 GHSA-9v8h-57gv-qch6,CVE-2007-5712,HIGH,Django,PyPI,Django vulnerable to Denial of Service via i18n middleware component,
 GHSA-f2wr-c4c4-xjg7,CVE-2017-7670,HIGH,github.com/apache/trafficcontrol,Go,Apache Traffic Control vulnerable to Slowloris-style Denial of Service attack,
 GHSA-9wr9-fw9v-8fgr,CVE-2019-8141,HIGH,magento/community-edition,Packagist,Magento 2 Community Edition RCE Vulnerability,
-GHSA-3gx6-h57h-rm27,CVE-2019-6340,HIGH,drupal/core,Packagist,Drupal Core Remote Code Execution Vulnerability,1
+GHSA-3gx6-h57h-rm27,CVE-2019-6340,HIGH,drupal/core,Packagist,Drupal Core Remote Code Execution Vulnerability,
 GHSA-p97q-j98q-f98w,CVE-2018-8287,HIGH,Microsoft.ChakraCore,NuGet,ChakraCore RCE Vulnerability,
 GHSA-qc99-g3wm-hgxr,CVE-2007-0404,HIGH,Django,PyPI,Django Arbitrary Code Execution,
 GHSA-7c4h-w765-6pwg,CVE-2018-1000167,HIGH,suricata-update,PyPI,OISF suricata-update unsafely deserializes YAML data,
@@ -1781,7 +1781,7 @@ GHSA-qrcx-p4rr-g48h,CVE-2005-4836,HIGH,org.apache.tomcat:tomcat,Maven,Apache Tom
 GHSA-3c5c-xrq4-qhr8,CVE-2014-0113,HIGH,org.apache.struts:struts2-core,Maven,ClassLoader manipulation in Apache Struts,
 GHSA-86p5-97jr-r598,CVE-2021-41938,HIGH,shopxo/shopxo,Packagist,Arbitrary file upload in ShopXO,
 GHSA-crvq-mw2w-4cfx,CVE-2018-1000197,HIGH,com.blackducksoftware.integration:blackduck-hub,Maven,Jenkins Black Duck Hub Plugin allowed any user with Overall/Read to read and write its configuration,
-GHSA-qvqm-h22r-4cp9,CVE-2018-15133,HIGH,laravel/framework,Packagist,Laravel Framework RCE Vulnerability,1
+GHSA-qvqm-h22r-4cp9,CVE-2018-15133,HIGH,laravel/framework,Packagist,Laravel Framework RCE Vulnerability,
 GHSA-5g7f-p7jg-v6mv,CVE-2014-4998,HIGH,lean-ruport,RubyGems,lean-ruport allows local users to obtain sensitive information by listing the process,
 GHSA-4gmg-gwjh-3mmr,CVE-2016-1927,HIGH,phpmyadmin/phpmyadmin,Packagist,phpMyAdmin Cryptographic Vulnerability,
 GHSA-4258-vcjw-wwxx,CVE-2021-31605,HIGH,openvpn-monitor,PyPI,furlongm openvpn-monitor command injection,
@@ -1807,7 +1807,7 @@ GHSA-pfwp-q984-w7wh,CVE-2022-25183,HIGH,org.jenkins-ci.plugins.workflow:workflow
 GHSA-qx3f-p745-w4hr,CVE-2022-23562,HIGH,tensorflow,PyPI,Integer overflow in Tensorflow,
 GHSA-4m7p-55jm-3vwv,CVE-2022-25173,HIGH,org.jenkins-ci.plugins.workflow:workflow-cps,Maven,Improper Neutralization of Special Elements used in an OS Command in Jenkins Pipeline: Groovy Plugin,
 GHSA-7w2w-fwpf-9m4h,CVE-2022-25181,HIGH,org.jenkins-ci.plugins.workflow:workflow-cps-global-lib,Maven,Jenkins Pipeline: Deprecated Groovy Libraries Plugin Protection Mechanism Failure,
-GHSA-vv6j-ww6x-54gx,CVE-2022-0609,HIGH,CefSharp.Common,NuGet,Use after free in Animation,1
+GHSA-vv6j-ww6x-54gx,CVE-2022-0609,HIGH,CefSharp.Common,NuGet,Use after free in Animation,
 GHSA-g44j-7vp3-68cv,CVE-2015-3629,HIGH,github.com/docker/docker,Go,Arbitrary File Write in Libcontainer,
 GHSA-8fvr-5rqf-3wwh,CVE-2015-3630,HIGH,github.com/docker/docker,Go,Information Exposure in Docker Engine,
 GHSA-p93c-h8qm-7256,CVE-2020-13654,HIGH,org.xwiki.platform:xwiki-platform-web,Maven,Improper escaping in XWiki Platform,
@@ -2216,7 +2216,7 @@ GHSA-j2gv-q44j-xm42,CVE-2022-34784,HIGH,org.jenkins-ci.plugins:build-metrics,Mav
 GHSA-qh9x-gcfh-pcrw,CVE-2022-31170,HIGH,@openzeppelin/contracts,npm,OpenZeppelin Contracts's ERC165Checker may revert instead of returning false,
 GHSA-96jv-vj39-x4j6,CVE-2022-1025,HIGH,github.com/argoproj/argo-cd,Go,Argo CD improper access control bug can allow malicious user to escalate privileges to admin level,
 GHSA-2m4x-4q9j-w97g,CVE-2022-33082,HIGH,github.com/open-policy-agent/opa,Go,Denial of service in Open Policy Agent ,
-GHSA-4x9r-j582-cgr8,CVE-2022-33891,HIGH,org.apache.spark:spark-parent_2.12,Maven,Apache Spark UI can allow impersonation if ACLs enabled,1
+GHSA-4x9r-j582-cgr8,CVE-2022-33891,HIGH,org.apache.spark:spark-parent_2.12,Maven,Apache Spark UI can allow impersonation if ACLs enabled,
 GHSA-8gpg-466c-5cpj,CVE-2022-36127,HIGH,skywalking-backend-js,npm,Apache SkyWalking NodeJS Agent can lose availability if header includes illegal SkyWalking header,
 GHSA-fw3v-x4f2-v673,CVE-2022-34749,HIGH,mistune,PyPI,Mistune vulnerable to catastrophic backtracking,
 GHSA-rm23-6mwv-8q9q,CVE-2022-34793,HIGH,org.jenkins-ci.plugins:recipe,Maven,XML External Entity Reference in Jenkins Recipe Plugin,
@@ -2415,7 +2415,7 @@ GHSA-fx9g-g9q6-x3jx,CVE-2022-34254,HIGH,magento/community-edition,Packagist,Mage
 GHSA-f4qr-f4xx-hjxw,CVE-2022-35980,HIGH,org.opensearch.plugin:opensearch-security,Maven,OpenSearch vulnerable to Improper Authorization of Index Containing Sensitive Information,
 GHSA-wcm8-86x6-8mv3,CVE-2022-36124,HIGH,apache-avro,crates.io,Apache Avro Rust SDK's Reader could consume memory beyond allowed constraints,
 GHSA-xh3v-6f9j-wxw3,CVE-2022-25275,HIGH,drupal/core,Packagist,Drupal core Information Disclosure vulnerability,
-GHSA-6278-2q4m-cmf3,CVE-2022-36537,HIGH,org.zkoss.zk:zk,Maven,ZK Framework vulnerable to malicious POST,1
+GHSA-6278-2q4m-cmf3,CVE-2022-36537,HIGH,org.zkoss.zk:zk,Maven,ZK Framework vulnerable to malicious POST,
 GHSA-85xx-xhjm-rhrw,CVE-2022-25867,HIGH,io.socket:socket.io-client,Maven,Socket.IO-client Java before 2.0.1 vulnerable to NULL Pointer Dereference,
 GHSA-76fg-mhrg-fmmg,CVE-2022-0084,HIGH,org.jboss.xnio:xnio-all,Maven,XNIO `notifyReadClosed` method logging message to unexpected end,
 GHSA-f92v-grc2-w2fg,CVE-2022-35936,HIGH,github.com/evmos/ethermint,Go,Ethermint vulnerable to DoS through unintended Contract Selfdestruct,
@@ -2992,7 +2992,7 @@ GHSA-w532-jxjh-hjhj,CVE-2025-29907,HIGH,jspdf,npm,jsPDF Bypass Regular Expressio
 GHSA-44f7-5fj5-h4px,CVE-2025-27403,HIGH,github.com/ratify-project/ratify,Go,Ratify Azure authentication providers can leak authentication tokens to non-Azure container registries,
 GHSA-wjpv-64v2-2qpq,CVE-2024-10572,HIGH,h2o,PyPI,H2O Vulnerable to Denial of Service (DoS) and File Write,
 GHSA-6f6x-f56q-5xgv,CVE-2024-10821,HIGH,InvokeAI,PyPI,InvokeAI has Denial of Service (DoS) vulnerability in `/api/v1/images/upload`,
-GHSA-mrrh-fwg8-r2c3,CVE-2025-30066,HIGH,tj-actions/changed-files,GitHub Actions,tj-actions changed-files through 45.0.7 allows remote attackers to discover secrets by reading actions logs.,1
+GHSA-mrrh-fwg8-r2c3,CVE-2025-30066,HIGH,tj-actions/changed-files,GitHub Actions,tj-actions changed-files through 45.0.7 allows remote attackers to discover secrets by reading actions logs.,
 GHSA-94vh-gphv-8pm8,CVE-2025-29787,HIGH,zip,crates.io,zip Incorrectly Canonicalizes Paths during Archive Extraction Leading to Arbitrary File Write,
 GHSA-98fp-7v67-4v3q,CVE-2024-8020,HIGH,pytorch-lightning,PyPI,PyTorch Lightning denial of service vulnerability,
 GHSA-7wqh-767x-r66v,CVE-2025-27610,HIGH,rack,RubyGems,Local File Inclusion in Rack::Static,
@@ -3032,7 +3032,7 @@ GHSA-mrvr-7493-pfq3,CVE-2024-6851,HIGH,aim,PyPI,Aim Path Traversal vulnerability
 GHSA-9vf8-xgwm-97r8,CVE-2024-8053,HIGH,open-webui,PyPI,Open WebUI lacks authentication for the `api/v1/utils/pdf` endpoint,
 GHSA-3248-f932-c76p,CVE-2024-10906,HIGH,dbgpt,PyPI,DB-GPT vulnerable to Cross-Site Request Forgery,
 GHSA-g3mx-83mp-3rwc,CVE-2024-12534,HIGH,open-webui,PyPI,Open WebUI Uncontrolled Resource Consumption vulnerability,
-GHSA-qmg3-hpqr-gqvc,CVE-2025-30154,HIGH,reviewdog/action-setup,GitHub Actions,Multiple Reviewdog actions were compromised during a specific time period,1
+GHSA-qmg3-hpqr-gqvc,CVE-2025-30154,HIGH,reviewdog/action-setup,GitHub Actions,Multiple Reviewdog actions were compromised during a specific time period,
 GHSA-3gc7-fjrx-p6mg,CVE-2025-3194,HIGH,bigint-buffer,npm,bigint-buffer Vulnerable to Buffer Overflow via toBigIntLE() Function,
 GHSA-3qjf-qh38-x73v,CVE-2023-27591,HIGH,miniflux.app/v2,Go,Unauthenticated Miniflux user can bypass allowed networks check to obtain Prometheus metrics,
 GHSA-428q-q3vv-3fq3,CVE-2025-31485,HIGH,api-platform/graphql,Packagist,GraphQL grant on a property might be cached with different objects,
@@ -3127,7 +3127,7 @@ GHSA-vqf5-2xx6-9wfm,CVE-2025-24362,HIGH,github/codeql-action,GitHub Actions,GitH
 GHSA-2r2v-9pf8-6342,,HIGH,github.com/h44z/wg-portal,Go,WireGuard Portal v2 Vulnerable to OAuth Insecure Redirect URI / Account Takeover,
 GHSA-5vpc-35f4-r8w6,CVE-2024-11218,HIGH,github.com/containers/buildah,Go,Buildah allows build breakout using malicious Containerfiles and concurrent builds,
 GHSA-p54p-p3qm-8vgj,CVE-2025-21171,HIGH,Microsoft.NetCore.App.Runtime.linux-arm,NuGet,Microsoft Security Advisory CVE-2025-21171 | .NET Remote Code Execution Vulnerability,
-GHSA-x684-96hh-833x,CVE-2025-23209,HIGH,craftcms/cms,Packagist,Craft CMS has a potential RCE with a compromised security key,1
+GHSA-x684-96hh-833x,CVE-2025-23209,HIGH,craftcms/cms,Packagist,Craft CMS has a potential RCE with a compromised security key,
 GHSA-fh5r-crhr-qrrq,CVE-2025-23184,HIGH,org.apache.cxf:cxf-core,Maven,Apache CXF: Denial of Service vulnerability with temporary files,
 GHSA-j63m-2vr6-fv7m,CVE-2024-55415,HIGH,tcg/voyager,Packagist,DevDojo Voyager vulnerable to path traversal,
 GHSA-gjf6-3w4p-7xfh,CVE-2025-21176,HIGH,Microsoft.NetCore.App.Runtime.linux-arm,NuGet,Microsoft Security Advisory CVE-2025-21176 | .NET and Visual Studio Remote Code Execution Vulnerability,
@@ -4595,7 +4595,7 @@ GHSA-jph3-3j24-pg3j,CVE-2023-1882,HIGH,thorsten/phpmyfaq,Packagist,thorsten/phpm
 GHSA-5286-f2rf-35c2,CVE-2023-28836,HIGH,wagtail,PyPI,Wagtail vulnerable to stored Cross-site Scripting attack via ModelAdmin views,
 GHSA-2jgw-28qh-6mg8,CVE-2023-30520,HIGH,org.jenkins-ci.plugins:quayio-trigger,Maven,Jenkins Quay.io trigger Plugin Cross-site Scripting vulnerability,
 GHSA-8r4m-5p6p-52rp,CVE-2023-30545,HIGH,prestashop/prestashop,Packagist,Arbitrary file read via SQL injection,
-GHSA-5cx2-vq3h-x52c,CVE-2023-27524,HIGH,apache-superset,PyPI,Apache superset missing check for default SECRET_KEY,1
+GHSA-5cx2-vq3h-x52c,CVE-2023-27524,HIGH,apache-superset,PyPI,Apache superset missing check for default SECRET_KEY,
 GHSA-7v2v-9rm4-7m8f,CVE-2023-2017,HIGH,shopware/platform,Packagist,Improper Control of Generation of Code in Twig rendered views,
 GHSA-w4m3-43gp-x8hx,CVE-2023-28260,HIGH,Microsoft.NetCore.App.Runtime.win-arm,NuGet,.NET Remote Code Execution vulnerability,
 GHSA-f6xp-59jq-r35c,CVE-2020-19278,HIGH,github.com/phachon/mm-wiki,Go,Phachon mm-wiki Cross Site Request Forgery vulnerability,
@@ -4623,7 +4623,7 @@ GHSA-x7fr-pg8f-93f5,CVE-2023-1521,HIGH,sccache,crates.io,sccache vulnerable to p
 GHSA-qwhm-h7v3-mrjx,CVE-2023-33192,HIGH,ntpd,crates.io,Improper handling of NTS cookie length that could crash the ntpd-rs server,
 GHSA-45cj-f97f-ggwv,CVE-2022-39335,HIGH,matrix-synapse,PyPI,Synapse does not apply enough checks to servers requesting auth events of events in a room,
 GHSA-6r8q-pfpv-7cgj,CVE-2023-32058,HIGH,vyper,PyPI,Vyper vulnerable to integer overflow in loop,
-GHSA-gw42-f939-fhvm,CVE-2023-32315,HIGH,org.igniterealtime.openfire:xmppserver,Maven,Administration Console authentication bypass in openfire xmppserver,1
+GHSA-gw42-f939-fhvm,CVE-2023-32315,HIGH,org.igniterealtime.openfire:xmppserver,Maven,Administration Console authentication bypass in openfire xmppserver,
 GHSA-9mmj-64jh-ph9c,CVE-2023-33779,HIGH,com.xuxueli:xxl-job,Maven,Privilege escalation in XXL-Job,
 GHSA-wf7x-fh6w-34r6,CVE-2023-32235,HIGH,ghost,npm,Path Traversal in Ghost,
 GHSA-6phf-6h5g-97j2,CVE-2023-32697,HIGH,org.xerial:sqlite-jdbc,Maven,Sqlite-jdbc vulnerable to remote code execution when JDBC url is attacker controlled,
@@ -4696,7 +4696,7 @@ GHSA-x36g-4629-xp9v,CVE-2023-1070,HIGH,nilsteampassnet/teampass,Packagist,TeamPa
 GHSA-344m-qcjq-xgrf,,HIGH,sgx-dcap-quote-verify-python,PyPI,Vulnerable OpenSSL included in sgx-dcap-quote-verify-python,
 GHSA-8mfq-f5wj-vw5m,CVE-2023-25657,HIGH,nautobot,PyPI,Nautobot vulnerable to remote code execution via Jinja2 template rendering,
 GHSA-hfrx-6qgj-fp6c,CVE-2023-24998,HIGH,commons-fileupload:commons-fileupload,Maven,Apache Commons FileUpload denial of service vulnerability,
-GHSA-6pm2-j2v8-h3cj,CVE-2023-0669,HIGH,metasploit-framework,RubyGems,Withdrawn: Fortra GoAnywhere MFT Deserialization of Untrusted Data vulnerability affects metasploit-framework,1
+GHSA-6pm2-j2v8-h3cj,CVE-2023-0669,HIGH,metasploit-framework,RubyGems,Withdrawn: Fortra GoAnywhere MFT Deserialization of Untrusted Data vulnerability affects metasploit-framework,
 GHSA-gpvj-gp8c-c7p2,CVE-2019-25103,HIGH,simple-markdown,npm,Regular Expression Denial of Service in simple-markdown,
 GHSA-3p9x-xxx6-2w4p,CVE-2023-25014,HIGH,in2code/femanager,Packagist,"Broken Access Control in 3rd party TYPO3 extension ""femanager""",
 GHSA-gvg3-83q4-rfhq,CVE-2023-25141,HIGH,org.apache.sling:org.apache.sling.jcr.base,Maven,Command injection in Apache Sling,
@@ -5050,7 +5050,7 @@ GHSA-ppjg-v974-84cm,CVE-2023-40591,HIGH,github.com/ethereum/go-ethereum,Go,Go-Et
 GHSA-65h2-wf7m-q2v8,CVE-2023-3223,HIGH,io.undertow:undertow-parent,Maven,Undertow vulnerable to denial of service,
 GHSA-gxh7-wv9q-fwfr,CVE-2023-23623,HIGH,electron,npm,Electron's Content-Secrity-Policy disabling eval not applied consistently in renderers with sandbox disabled,
 GHSA-ppjh-xp5v-46wc,CVE-2023-43619,HIGH,github.com/schollz/croc/v9,Go,Croc sender may send dangerous new files to receiver,
-GHSA-2pxw-r47w-4p8c,CVE-2023-28434,HIGH,github.com/minio/minio,Go,Privilege Escalation on Linux/MacOS,1
+GHSA-2pxw-r47w-4p8c,CVE-2023-28434,HIGH,github.com/minio/minio,Go,Privilege Escalation on Linux/MacOS,
 GHSA-3qf9-qxfj-4whc,CVE-2023-36792,HIGH,Microsoft.NETCore.App.Runtime.win-arm64,NuGet, Microsoft Security Advisory CVE-2023-36792: .NET Remote Code Execution Vulnerability,
 GHSA-2g7r-9xq5-c6hv,CVE-2023-5036,HIGH,github.com/usememos/memos,Go,Cross-Site Request Forgery (CSRF) in  usememos/memos,
 GHSA-92hx-3mh6-hc49,CVE-2023-1260,HIGH,github.com/openshift/apiserver-library-go,Go,kube-apiserver authentication bypass vulnerability,
@@ -5060,11 +5060,11 @@ GHSA-pq98-6hf6-3rj3,CVE-2023-38874,HIGH,gugoan/economizzer,Packagist,Economizzer
 GHSA-6773-rfjv-c54w,CVE-2023-38886,HIGH,dolibarr/dolibarr,Packagist,Dolibarr allows a remote privileged attacker to execute arbitrary code via a crafted command/script,
 GHSA-5836-grcc-8j89,CVE-2023-1625,HIGH,openstack-heat,PyPI,OpenStack Heat information leak vulnerability,
 GHSA-rr66-qh5m-w6mx,CVE-2023-42278,HIGH,cn.hutool:hutool-core,Maven,hutool Buffer Overflow vulnerability,
-GHSA-qqvq-6xgj-jw8g,CVE-2023-5217,HIGH,electron,npm,Electron affected by libvpx's heap buffer overflow in vp8 encoding,1
+GHSA-qqvq-6xgj-jw8g,CVE-2023-5217,HIGH,electron,npm,Electron affected by libvpx's heap buffer overflow in vp8 encoding,
 GHSA-j5ww-5xf4-hqm2,CVE-2023-5319,HIGH,thorsten/phpmyfaq,Packagist,phpMyFAQ Cross-site Scripting vulnerability,
 GHSA-cxvp-82cq-57h2,CVE-2023-42447,HIGH,blurhash,crates.io,blurhash panics on parsing crafted inputs,
 GHSA-6jmw-6mxw-w4jc,CVE-2023-39914,HIGH,bcder,crates.io,BER/CER/DER decoder panics on invalid input,
-GHSA-j7hp-h8jx-5ppr,CVE-2023-4863,HIGH,libwebp-sys2,crates.io,libwebp: OOB write in BuildHuffmanTable,1
+GHSA-j7hp-h8jx-5ppr,CVE-2023-4863,HIGH,libwebp-sys2,crates.io,libwebp: OOB write in BuildHuffmanTable,
 GHSA-vrpg-c7c4-8mpx,CVE-2023-41937,HIGH,io.jenkins.plugins:bitbucket-push-and-pull-request,Maven,SSRF vulnerability in Jenkins Bitbucket Push and Pull Request Plugin allows capturing credentials,
 GHSA-qf42-f5vf-6w99,CVE-2023-41945,HIGH,org.jenkins-ci.plugins:assembla-auth,Maven,Disabled permissions granted by Jenkins Assembla Auth Plugin,
 GHSA-96gq-6ch5-mm54,CVE-2023-4698,HIGH,github.com/usememos/memos,Go,usememos/memos vulnerable to improper input validation,
@@ -5203,7 +5203,7 @@ GHSA-c3x7-354f-4p2x,CVE-2023-4241,HIGH,lol-html,crates.io,lol-html panics on cer
 GHSA-g454-wj9r-jpg4,CVE-2023-39135,HIGH,github.com/marmelroy/Zip,SwiftURL,Path traversal in Zip Swift,
 GHSA-826j-8wp2-4x6q,CVE-2023-32079,HIGH,github.com/gravitl/netmaker,Go,Netmaker Vulnerable to Privilege Escalation From Non Admin To Admin User,
 GHSA-mxc9-g6m4-2v35,CVE-2023-38208,HIGH,magento/community-edition,Packagist,Magento Open Source allows Improper Neutralization of Special Elements Used,
-GHSA-vmch-3w2x-vhgq,CVE-2023-38180,HIGH,Microsoft.AspNetCore.App.Runtime.win-arm64,NuGet,.NET Denial of Service Vulnerability,1
+GHSA-vmch-3w2x-vhgq,CVE-2023-38180,HIGH,Microsoft.AspNetCore.App.Runtime.win-arm64,NuGet,.NET Denial of Service Vulnerability,
 GHSA-8q28-pw9g-w82c,CVE-2023-40195,HIGH,apache-airflow-providers-apache-spark,PyPI,Apache Airflow vulnerable arbitrary code execution via Spark server,
 GHSA-4987-5p3p-9r27,CVE-2020-35139,HIGH,ryu,PyPI,FaucetSDN Ryu Denial of Service Vulnerability,
 GHSA-3r32-cp7v-5wq4,CVE-2023-39059,HIGH,github.com/ansible-semaphore/semaphore,Go,Code injection in ansible semaphore,
@@ -5548,7 +5548,7 @@ GHSA-f7p5-w2cr-7cp7,CVE-2013-3567,HIGH,puppet,RubyGems,Puppet Improper Input Val
 GHSA-qrgf-jqqm-x7xv,CVE-2013-5671,HIGH,dragonfly,RubyGems,Code injection in dragonfly gem,
 GHSA-vm28-mrm7-fpjq,CVE-2014-2888,HIGH,sfpagent,RubyGems,sfpagent Command Injection vulnerability,
 GHSA-rp63-jfmw-532w,CVE-2012-2140,HIGH,mail,RubyGems,Mail Gem Improper Input Validation vulnerability,
-GHSA-xrr4-p6fq-hjg7,CVE-2016-0752,HIGH,actionview,RubyGems,Directory traversal vulnerability in Action View in Ruby on Rails,1
+GHSA-xrr4-p6fq-hjg7,CVE-2016-0752,HIGH,actionview,RubyGems,Directory traversal vulnerability in Action View in Ruby on Rails,
 GHSA-78rc-8c29-p45g,CVE-2016-2098,HIGH,actionpack,RubyGems,actionpack allows remote code execution via application's unrestricted use of render method,
 GHSA-gvcj-pfq2-wxj7,CVE-2016-1202,HIGH,electron,npm,High severity vulnerability that affects electron,
 GHSA-mhwp-qhpc-h3jm,CVE-2014-3482,HIGH,activerecord,RubyGems,SQL Injection in Active Record,
@@ -5835,10 +5835,10 @@ GHSA-7v35-qwwj-p98g,CVE-2019-9843,HIGH,com.diffplug.spotless:spotless-plugin-gra
 GHSA-x2fr-v8wf-8wwv,CVE-2017-11428,HIGH,ruby-saml,RubyGems,Ruby-SAML Improper Authentication vulnerability,
 GHSA-ffq8-576r-v26g,CVE-2016-6581,HIGH,hpack,PyPI,HPACK Denial of Service vulnerability (HPACK Bomb),
 GHSA-5wv5-4vpf-pj6m,CVE-2019-1010083,HIGH,Flask,PyPI,Pallets Project Flask is vulnerable to Denial of Service via Unexpected memory usage,
-GHSA-j3g9-6fx5-gjv7,CVE-2018-18325,HIGH,DotNetNuke.Core,NuGet,Inadequate Encryption Strength in DotNetNuke,1
+GHSA-j3g9-6fx5-gjv7,CVE-2018-18325,HIGH,DotNetNuke.Core,NuGet,Inadequate Encryption Strength in DotNetNuke,
 GHSA-94hm-8q65-rmxm,CVE-2017-11430,HIGH,omniauth-saml,RubyGems,OmniAuth-SAML authentication bypass via incorrect XML canonicalization and DOM traversal,
 GHSA-pf46-gqg9-j3v3,CVE-2018-15812,HIGH,DotNetNuke.Core,NuGet,Insufficient Entropy in DotNetNuke,
-GHSA-h595-8pw6-5q6v,CVE-2018-15811,HIGH,DotNetNuke.Core,NuGet,Inadequate Encryption Strength in DotNetNuke,1
+GHSA-h595-8pw6-5q6v,CVE-2018-15811,HIGH,DotNetNuke.Core,NuGet,Inadequate Encryption Strength in DotNetNuke,
 GHSA-h92m-42h4-82f6,CVE-2019-16791,HIGH,postfix-mta-sts-resolver,PyPI,postfix-mta-sts-resolver Algorithm Downgrade vulnerability,
 GHSA-h582-2pch-3xv3,CVE-2015-5143,HIGH,Django,PyPI,Django Denial-of-service by filling session store,
 GHSA-j8j8-348v-wfm3,CVE-2017-11427,HIGH,python-saml,PyPI,Python-saml allows manipulation of SAML data without invalidation of cryptographic signature,
@@ -5860,7 +5860,7 @@ GHSA-mc84-xr9p-938r,,HIGH,generator-jhipster,npm,High severity vulnerability tha
 GHSA-cgjv-rghq-qhgp,,HIGH,algo-httpserv,npm,Path Traversal in algo-httpserv,
 GHSA-62gw-3rmj-wmp2,CVE-2019-1301,HIGH,System.Management.Automation,NuGet,High severity vulnerability that affects System.Management.Automation,
 GHSA-c4qh-4vgv-qc6g,CVE-2019-14232,HIGH,Django,PyPI,Django Denial-of-service in django.utils.text.Truncator,
-GHSA-3gm7-v7vw-866c,CVE-2019-0193,HIGH,org.apache.solr:solr-core,Maven,XML External Entity (XXE) Injection in Apache Solr,1
+GHSA-3gm7-v7vw-866c,CVE-2019-0193,HIGH,org.apache.solr:solr-core,Maven,XML External Entity (XXE) Injection in Apache Solr,
 GHSA-fp5j-3fpf-mhj5,CVE-2019-10099,HIGH,org.apache.spark:spark-core_2.11,Maven,Sensitive data written to disk unencrypted in Spark,
 GHSA-hfmf-q43v-2ffj,CVE-2019-9154,HIGH,openpgp,npm,Improper Key Verification in openpgp,
 GHSA-66rh-8fw6-59q6,CVE-2019-10745,HIGH,assign-deep,npm,assign-deep Vulnerable to Prototype Pollution,
@@ -6084,7 +6084,7 @@ GHSA-j32x-j8pj-pg2h,CVE-2020-28450,HIGH,decal,npm,Prototype Pollution in decal,
 GHSA-6q4w-3wp4-q5wf,CVE-2021-27191,HIGH,get-ip-range,npm,Denial of Service in get-ip-range,
 GHSA-fc42-h7q4-qp8h,CVE-2021-23360,HIGH,killport,npm,Command Injection in killport,
 GHSA-72rj-36qc-47g7,CVE-2021-31671,HIGH,pgsync,RubyGems,Pgsync Contains Cleartext Transmission of Sensitive Information,
-GHSA-rpw6-9xfx-jvcx,CVE-2020-36193,HIGH,pear/archive_tar,Packagist,Directory Traversal in Archive_Tar,1
+GHSA-rpw6-9xfx-jvcx,CVE-2020-36193,HIGH,pear/archive_tar,Packagist,Directory Traversal in Archive_Tar,
 GHSA-23c7-6444-399m,CVE-2021-21431,HIGH,sopel-plugins.channelmgnt,PyPI,Improper Input Validation in sopel-plugins.channelmgnt,
 GHSA-ffw3-6mp6-jmvj,CVE-2021-26559,HIGH,apache-airflow,PyPI,Improper Access Control in Apache Airflow,
 GHSA-pghf-347x-c2gj,CVE-2021-30459,HIGH,django-debug-toolbar,PyPI,SQL Injection via in django-debug-toolbar,
@@ -6111,7 +6111,7 @@ GHSA-h5h8-pc6h-jvvx,CVE-2021-29472,HIGH,composer/composer,Packagist,Composer's m
 GHSA-wmg4-8cp2-hpg9,CVE-2021-29430,HIGH,matrix-sydent,PyPI,Sydent vulnerable to denial of service attack via memory exhaustion,
 GHSA-qq48-m4jx-xqh8,CVE-2020-26945,HIGH,org.mybatis:mybatis,Maven,"""Deserialization errors in MyBatis""",
 GHSA-xmxh-g7wj-8m4m,CVE-2019-10789,HIGH,curling,npm,OS Command Injection in curling,
-GHSA-75c5-f4gw-38r9,CVE-2020-28949,HIGH,pear/archive_tar,Packagist,Multiple vulnerabilities through filename manipulation in Archive_Tar,1
+GHSA-75c5-f4gw-38r9,CVE-2020-28949,HIGH,pear/archive_tar,Packagist,Multiple vulnerabilities through filename manipulation in Archive_Tar,
 GHSA-h8hx-2c5r-32cf,CVE-2021-29435,HIGH,trestle-auth,RubyGems,Cross-Site Request Forgery (CSRF) in trestle-auth,
 GHSA-m5pj-vjjf-4m3h,CVE-2020-7729,HIGH,grunt,npm,Arbitrary Code Execution in grunt,
 GHSA-cj2h-ww36-v932,CVE-2020-7956,HIGH,github.com/hashicorp/nomad,Go,Improper Certificate Validation in HashiCorp Nomad,
@@ -6273,7 +6273,7 @@ GHSA-j95h-wmx9-4279,,HIGH,sails,npm,Denial of Service,
 GHSA-c8m9-mh38-97p9,,HIGH,org.jpmml:pmml-model,Maven,XML external entity (XXE) vulnerability,
 GHSA-pj4g-4488-wmxm,CVE-2019-16328,HIGH,rpyc,PyPI,Dynamic modification of RPyC service due to missing security check,
 GHSA-rhm9-p9w5-fwm7,CVE-2020-36242,HIGH,cryptography,PyPI,PyCA Cryptography symmetrically encrypting large values can lead to integer overflow,
-GHSA-2m8v-572m-ff2v,CVE-2021-21315,HIGH,systeminformation,npm,Command Injection Vulnerability,1
+GHSA-2m8v-572m-ff2v,CVE-2021-21315,HIGH,systeminformation,npm,Command Injection Vulnerability,
 GHSA-f62v-xpxf-3v68,CVE-2020-11979,HIGH,org.apache.ant:ant,Maven,Code injection in Apache Ant,
 GHSA-c497-v8pv-ch6x,CVE-2021-23329,HIGH,nested-object-assign,npm,Prototype pollution in nested-object-assign,
 GHSA-h7f9-cvh5-qw7f,CVE-2021-23340,HIGH,pimcore/pimcore,Packagist,Path traversal in pimcore/pimcore,
@@ -6356,7 +6356,7 @@ GHSA-m6m5-pp4g-fcc8,,HIGH,github.com/foxcpp/maddy,Go,S3 storage write is not abo
 GHSA-362v-wg5p-64w2,CVE-2021-42135,HIGH,github.com/hashicorp/vault,Go,Incorrect Privilege Assignment in HashiCorp Vault,
 GHSA-r838-q6jp-58xx,CVE-2013-1895,HIGH,py-bcrypt,PyPI,Improper Restriction of Excessive Authentication Attempts in py-bcrypt,
 GHSA-fr58-2xhv-qp3w,CVE-2017-12600,HIGH,opencv-python,PyPI,Denial of Service in OpenCV,
-GHSA-68jc-v27h-vhmw,CVE-2020-13671,HIGH,drupal/core,Packagist,Drupal core Unrestricted Upload of File with Dangerous Type,1
+GHSA-68jc-v27h-vhmw,CVE-2020-13671,HIGH,drupal/core,Packagist,Drupal core Unrestricted Upload of File with Dangerous Type,
 GHSA-3ww4-cp53-6g2x,CVE-2021-42228,HIGH,kindeditor,npm,Cross Site Request Forgery in kindeditor,
 GHSA-pjwm-rvh2-c87w,,HIGH,ua-parser-js,npm,Embedded malware in ua-parser-js,
 GHSA-3pcq-34w5-p4g2,CVE-2021-41167,HIGH,modern-async,npm,modern-async's `forEachSeries` and `forEachLimit` functions do not limit the number of requests,
@@ -6398,7 +6398,7 @@ GHSA-5vfx-8w6m-h3v4,CVE-2021-41129,HIGH,pterodactyl/panel,Packagist,Pterodactyl 
 GHSA-33h2-69j3-r336,CVE-2017-12598,HIGH,opencv-python,PyPI,Out-of-bounds Read in OpenCV ,
 GHSA-vc29-rj92-gc7j,CVE-2017-12606,HIGH,opencv-python,PyPI,Out-of-bounds Write in OpenCV,
 GHSA-fvq6-392h-6mjj,CVE-2017-12599,HIGH,opencv-python,PyPI,Out-of-bounds Read in OpenCV ,
-GHSA-69j6-29vr-p3j9,CVE-2021-39226,HIGH,github.com/grafana/grafana,Go,Authentication bypass for viewing and deletions of snapshots,1
+GHSA-69j6-29vr-p3j9,CVE-2021-39226,HIGH,github.com/grafana/grafana,Go,Authentication bypass for viewing and deletions of snapshots,
 GHSA-qf6q-qfwp-vp44,CVE-2020-8818,HIGH,cardgate/magento2,Packagist,Origin Validation Error in Magento 2,
 GHSA-284f-f2hw-j2gx,CVE-2021-22958,HIGH,concrete5/concrete5,Packagist,Server-Side Request Forgery vulnerability in concrete5,
 GHSA-mcwm-2wmc-6hv4,CVE-2021-31957,HIGH,Microsoft.NETCore.App.Ref,NuGet,ASP.NET Core Denial of Service Vulnerability,
@@ -6591,7 +6591,7 @@ GHSA-rfgg-vccr-m46m,CVE-2020-25794,HIGH,sized-chunks,crates.io,Missing release o
 GHSA-2q8x-2p7f-574v,CVE-2021-39153,HIGH,com.thoughtworks.xstream:xstream,Maven,XStream is vulnerable to an Arbitrary Code Execution attack,
 GHSA-v5r6-6r3c-wqxc,CVE-2019-15549,HIGH,asn1_der,crates.io,Memory exhaustion in asn1_der,
 GHSA-cxfm-5m4g-x7xp,CVE-2021-39150,HIGH,com.thoughtworks.xstream:xstream,Maven,A Server-Side Forgery Request can be activated unmarshalling with XStream to access data streams from an arbitrary URL referencing a resource in an intranet or the local host,
-GHSA-j9h8-phrw-h4fh,CVE-2021-39144,HIGH,com.thoughtworks.xstream:xstream,Maven,XStream is vulnerable to a Remote Command Execution attack,1
+GHSA-j9h8-phrw-h4fh,CVE-2021-39144,HIGH,com.thoughtworks.xstream:xstream,Maven,XStream is vulnerable to a Remote Command Execution attack,
 GHSA-rpxm-vmr7-5f5f,CVE-2020-36445,HIGH,convec,crates.io,Data races in convec,
 GHSA-g25h-jr74-qp5j,CVE-2021-37663,HIGH,tensorflow,PyPI,Incomplete validation in `QuantizeV2`,
 GHSA-gffv-5hr2-f9gj,CVE-2018-20999,HIGH,orion,crates.io,Flaw in streaming state in orion,
@@ -6703,7 +6703,7 @@ GHSA-3358-4f7f-p4j4,CVE-2020-36465,HIGH,generic-array,crates.io,Use after free i
 GHSA-f8h4-7rgh-q2gm,CVE-2021-37650,HIGH,tensorflow,PyPI,"Segfault and heap buffer overflow in `{Experimental,}DatasetToTFRecord`",
 GHSA-f865-m6cq-j9vx,CVE-2021-29063,HIGH,mpmath,PyPI,ReDOS in Mpmath,
 GHSA-fhv4-fx3v-77w6,CVE-2021-28036,HIGH,quinn,crates.io,quinn invalidly assumes the memory layout of std::net::SocketAddr,
-GHSA-mxr5-mc97-63rc,CVE-2021-32648,HIGH,october/system,Packagist,Account Takeover in Octobercms,1
+GHSA-mxr5-mc97-63rc,CVE-2021-32648,HIGH,october/system,Packagist,Account Takeover in Octobercms,
 GHSA-qq89-hq3f-393p,CVE-2021-37712,HIGH,tar,npm,Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links,
 GHSA-fjr6-hm39-4cf9,CVE-2021-25906,HIGH,basic_dsp_matrix,crates.io,Double free in basic_dsp_matrix,
 GHSA-hwr7-8gxx-fj5p,CVE-2021-37638,HIGH,tensorflow,PyPI,Null pointer dereference in `RaggedTensorToTensor`,
@@ -6776,7 +6776,7 @@ GHSA-jqfh-8hw5-fqjr,CVE-2021-39157,HIGH,detect-character-encoding,npm,Improper H
 GHSA-p7v4-gm6j-cw9m,CVE-2021-3142,HIGH,mautic/core,Packagist,XSS in Mautic,
 GHSA-49wp-qq6x-g2rf,CVE-2020-28482,HIGH,fastify-csrf,npm,Cross-site Request Forgery in fastify-csrf,
 GHSA-523c-xh4g-mh5m,CVE-2017-12626,HIGH,org.apache.poi:poi,Maven,Denial of Service in Apache POI,
-GHSA-395w-qhqr-9fr6,CVE-2020-17519,HIGH,org.apache.flink:flink-runtime_2.11,Maven,Path Traversal in Apache Flink,1
+GHSA-395w-qhqr-9fr6,CVE-2020-17519,HIGH,org.apache.flink:flink-runtime_2.11,Maven,Path Traversal in Apache Flink,
 GHSA-3crj-w4f5-gwh4,CVE-2021-21316,HIGH,less-openui5,npm,Processing untrusted theming resources might execute arbitrary code (ACE),
 GHSA-hq37-853p-g5cf,CVE-2021-21236,HIGH,CairoSVG,PyPI,Regular Expression Denial of Service in CairoSVG,
 GHSA-qwp9-52h8-xgg8,CVE-2020-28480,HIGH,jointjs,npm,Prototype pollution in JointJS,
@@ -6983,7 +6983,7 @@ GHSA-9q64-mpxx-87fg,,HIGH,ecstatic,npm,Open Redirect in ecstatic,
 GHSA-gvr4-7xgc-gx3w,CVE-2019-15602,HIGH,fileview,npm,Cross-Site Scripting in fileview,
 GHSA-265q-28rp-chq5,CVE-2015-8851,HIGH,node-uuid,npm,Insecure Entropy Source - Math.random() in node-uuid,
 GHSA-qpg4-4w7w-2mq5,CVE-2020-11020,HIGH,faye,RubyGems,Authentication and extension bypass in Faye,
-GHSA-g2f6-v5qh-h2mq,CVE-2020-10199,HIGH,org.sonatype.nexus:nexus-extdirect,Maven,Nexus Repository Manager 3 - Remote Code Execution ,1
+GHSA-g2f6-v5qh-h2mq,CVE-2020-10199,HIGH,org.sonatype.nexus:nexus-extdirect,Maven,Nexus Repository Manager 3 - Remote Code Execution ,
 GHSA-gqgv-6jq5-jjj9,CVE-2017-1000048,HIGH,qs,npm,Prototype Pollution Protection Bypass in qs,
 GHSA-h4rc-386g-6m85,CVE-2020-11620,HIGH,com.fasterxml.jackson.core:jackson-databind,Maven,jackson-databind mishandles the interaction between serialization gadgets and typing,
 GHSA-6m9g-jr8c-cqw3,CVE-2019-1000007,HIGH,aioxmpp,PyPI,Depth counting error in guard() leading to multiple potential security issues in aioxmpp,
@@ -7033,20 +7033,20 @@ GHSA-ff2w-cq2g-wv5f,CVE-2020-7238,HIGH,io.netty:netty-handler,Maven,HTTP Request
 GHSA-3j78-7m59-r7gv,CVE-2020-5244,HIGH,buddypress/buddypress,Packagist,Private data exposure via REST API in BuddyPress,
 GHSA-3mcp-9wr4-cjqf,CVE-2020-5245,HIGH,io.dropwizard:dropwizard-validation,Maven,Remote Code Execution (RCE) vulnerability in dropwizard-validation,
 GHSA-x8wj-6m73-gfqp,CVE-2020-5237,HIGH,oneup/uploader-bundle,Packagist,Relative Path Traversal (CWE-23) in chunked uploads in oneup/uploader-bundle,
-GHSA-ww97-9w65-2crx,CVE-2019-17558,HIGH,org.apache.solr:solr-core,Maven,Improper Input Validation in Apache Solr,1
+GHSA-ww97-9w65-2crx,CVE-2019-17558,HIGH,org.apache.solr:solr-core,Maven,Improper Input Validation in Apache Solr,
 GHSA-5xf4-f2fq-f69j,CVE-2019-10773,HIGH,yarn,npm,Yarn Improper link resolution before file access (Link Following),
 GHSA-cchx-mfrc-fwqr,CVE-2019-10911,HIGH,symfony/security-http,Packagist,Improper authentication in Symfony,
 GHSA-3jqw-vv45-mjhh,CVE-2020-5241,HIGH,matestack-ui-core,RubyGems,XSS/Script injection vulnerability in matestack,
 GHSA-52q8-877j-gghq,CVE-2020-25074,HIGH,moin,PyPI,MoinMoin vulnerable to remote code execution via cache action,
 GHSA-j977-g5vj-j27g,CVE-2020-7750,HIGH,scratch-svg-renderer,npm,Cross-Site Scripting in scratch-svg-renderer,
-GHSA-gvqv-779r-4jgp,CVE-2020-16017,HIGH,CefSharp.Common,NuGet,Use after free in CefSharp,1
+GHSA-gvqv-779r-4jgp,CVE-2020-16017,HIGH,CefSharp.Common,NuGet,Use after free in CefSharp,
 GHSA-4mp3-385r-v63f,CVE-2020-26890,HIGH,matrix-synapse,PyPI,Denial of service attack due to invalid JSON,
 GHSA-mw36-7c6c-q4q2,CVE-2020-26217,HIGH,com.thoughtworks.xstream:xstream,Maven,XStream can be used for Remote Code Execution,
 GHSA-hpjm-3ww5-6cpf,CVE-2020-26216,HIGH,typo3fluid/fluid,Packagist,Cross-Site Scripting through Fluid view helper arguments,
 GHSA-r2j6-p67h-q639,CVE-2020-26226,HIGH,semantic-release,npm,Secret disclosure when containing characters that become URI encoded,
 GHSA-58r4-h6v8-jcvm,CVE-2020-15240,HIGH,omniauth-auth0,RubyGems,Regression in JWT Signature Validation,
 GHSA-rrfp-j2mp-hq9c,CVE-2020-15265,HIGH,tensorflow,PyPI,Segfault in `tf.quantization.quantize_and_dequantize`,
-GHSA-x7fx-mcc9-27j7,CVE-2020-16013,HIGH,CefSharp.Common,NuGet,Inappropriate implementation in V8 in CefSharp,1
+GHSA-x7fx-mcc9-27j7,CVE-2020-16013,HIGH,CefSharp.Common,NuGet,Inappropriate implementation in V8 in CefSharp,
 GHSA-8jq6-w5cg-wm45,,HIGH,pocketmine/pocketmine-mp,Packagist,Exploitable inventory component chaining in PocketMine-MP,
 GHSA-m2jr-hmc3-qmpr,CVE-2020-26223,HIGH,spree_api,RubyGems,Authorization bypass in Spree,
 GHSA-m9hw-7xfv-wqg7,,HIGH,json-logic-js,npm,Prototype Pollution in json-logic-js,
@@ -7088,7 +7088,7 @@ GHSA-h9jc-284h-533g,CVE-2020-4077,HIGH,electron,npm,Context isolation bypass via
 GHSA-vh7m-p724-62c2,CVE-2020-13822,HIGH,elliptic,npm,Signature Malleabillity in elliptic,
 GHSA-v7m9-9497-p9gr,CVE-2020-15110,HIGH,jupyterhub-kubespawner,PyPI,Possible pod name collisions in jupyterhub-kubespawner,
 GHSA-2v5c-755p-p4gv,CVE-2020-15133,HIGH,faye-websocket,RubyGems,Missing TLS certificate verification in faye-websocket,
-GHSA-rvmq-4x66-q7j3,CVE-2020-11978,HIGH,apache-airflow,PyPI,Remote code execution (RCE) in Apache Airflow,1
+GHSA-rvmq-4x66-q7j3,CVE-2020-11978,HIGH,apache-airflow,PyPI,Remote code execution (RCE) in Apache Airflow,
 GHSA-34gh-3cwv-wvp2,CVE-2020-7683,HIGH,rollup-plugin-server,npm,Directory traversal in rollup-plugin-server,
 GHSA-5f9h-9pjv-v6j7,CVE-2020-8161,HIGH,rack,RubyGems,Directory traversal in Rack::Directory app bundled with Rack,
 GHSA-7phr-5m9x-rw9q,CVE-2020-7687,HIGH,fast-http,npm,Directory traversal in fast-http,
@@ -7101,7 +7101,7 @@ GHSA-m93v-9qjc-3g79,CVE-2020-4076,HIGH,electron,npm,Context isolation bypass via
 GHSA-9h4g-27m8-qjrg,CVE-2020-15779,HIGH,socket.io-file,npm,Path Traversal in socket.io-file,
 GHSA-5jpf-pj32-xx53,CVE-2020-15125,HIGH,auth0,npm,Authorization header is not sanitized in an error object in auth0,
 GHSA-m5vr-3m74-jwxp,CVE-2020-15098,HIGH,typo3/cms-core,Packagist,Missing Required Cryptographic Step Leading to Sensitive Information Disclosure in TYPO3 CMS,
-GHSA-gprm-xqrc-c2j3,CVE-2020-1956,HIGH,org.apache.kylin:kylin-core-common,Maven,Command Injection in Kylin,1
+GHSA-gprm-xqrc-c2j3,CVE-2020-1956,HIGH,org.apache.kylin:kylin-core-common,Maven,Command Injection in Kylin,
 GHSA-jphg-qwrw-7w9g,CVE-2020-10663,HIGH,json,RubyGems,Unsafe object creation in json RubyGem,
 GHSA-8843-m7mw-mxqm,CVE-2020-10379,HIGH,pillow,PyPI,Buffer overflow in Pillow,
 GHSA-gm9x-q798-hmr4,,HIGH,git-tags-remote,npm,Command Injection in git-tags-remote,
@@ -7405,7 +7405,7 @@ GHSA-ffvq-7w96-97p7,CVE-2018-15756,HIGH,org.springframework:spring-core,Maven,De
 GHSA-qcxh-w3j9-58qr,CVE-2019-0199,HIGH,org.apache.tomcat.embed:tomcat-embed-core,Maven,Apache Tomcat Denial of Service vulnerability,
 GHSA-6g6m-m6h5-w9gf,CVE-2020-15084,HIGH,express-jwt,npm,Authorization bypass in express-jwt,
 GHSA-7hwc-46rm-65jh,CVE-2017-7957,HIGH,com.thoughtworks.xstream:xstream,Maven,Denial of service in XStream,
-GHSA-32xf-jwmv-9hf3,CVE-2020-5410,HIGH,org.springframework.cloud:spring-cloud-config-server,Maven,Directory traversal attack in Spring Cloud Config,1
+GHSA-32xf-jwmv-9hf3,CVE-2020-5410,HIGH,org.springframework.cloud:spring-cloud-config-server,Maven,Directory traversal attack in Spring Cloud Config,
 GHSA-w3f4-3q6j-rh82,CVE-2018-5968,HIGH,com.fasterxml.jackson.core:jackson-databind,Maven,Deserialization of Untrusted Data in jackson-databind,
 GHSA-p4x4-rw2p-8j8m,CVE-2020-4054,HIGH,sanitize,RubyGems,Cross-site Scripting in Sanitize ,
 GHSA-qjg4-w4c6-f6c6,CVE-2020-4059,HIGH,mversion,npm,Command injection in mversion,
@@ -7423,7 +7423,7 @@ GHSA-hfvc-g252-rp4g,CVE-2020-7791,HIGH,i18n,NuGet,Denial of Service in i18n,
 GHSA-qqgx-2p2h-9c37,CVE-2020-7788,HIGH,ini,npm,ini before 1.3.6 vulnerable to Prototype Pollution via ini.parse,
 GHSA-hxmp-pqch-c8mm,CVE-2020-26257,HIGH,matrix-synapse,PyPI,Denial of service attack via incorrect parameters in Matrix Synapse,
 GHSA-wmfg-55f9-j8hq,CVE-2020-26282,HIGH,com.browserup:browserup-proxy,Maven,Server-Side Template Injection,
-GHSA-m7mf-48hp-5qmr,CVE-2020-16009,HIGH,CefSharp.Common,NuGet,Inappropriate implementation in V8,1
+GHSA-m7mf-48hp-5qmr,CVE-2020-16009,HIGH,CefSharp.Common,NuGet,Inappropriate implementation in V8,
 GHSA-49r3-2549-3633,CVE-2020-26254,HIGH,omniauth-apple,RubyGems,omniauth-apple allows attacker to fake their email address during authentication,
 GHSA-44cw-p2hm-gpf6,CVE-2020-26234,HIGH,org.opencastproject:opencast-kernel,Maven,Disabled Hostname Verification in Opencast,
 GHSA-5p28-63mc-cgr9,,HIGH,html-purify,npm,Cross-Site Scripting bypass in html-purify,
@@ -7558,7 +7558,7 @@ GHSA-646x-m363-9rh4,CVE-2017-16063,HIGH,node-opensl,npm,node-opensl is malware,
 GHSA-hxm2-r34f-qmc5,CVE-2016-10540,HIGH,minimatch,npm,Regular Expression Denial of Service in minimatch,
 GHSA-q7pf-qr96-2vq5,CVE-2017-1000208,HIGH,io.swagger:swagger-codegen,Maven,Deserialization of Untrusted Data in swagger-parser,
 GHSA-cf3c-fffp-34qh,CVE-2018-14572,HIGH,conference-scheduler-cli,PyPI,conference-scheduler-cli Arbitrary Code Execution,
-GHSA-cr6j-3jp9-rw65,CVE-2018-11776,HIGH,org.apache.struts:struts2-core,Maven,Apache Struts vulnerable to remote command execution (RCE) due to improper input validation,1
+GHSA-cr6j-3jp9-rw65,CVE-2018-11776,HIGH,org.apache.struts:struts2-core,Maven,Apache Struts vulnerable to remote command execution (RCE) due to improper input validation,
 GHSA-qcj7-g2j5-g7r3,CVE-2016-1000342,HIGH,org.bouncycastle:bcprov-jdk14,Maven,In Bouncy Castle JCE Provider ECDSA does not fully validate ASN.1 encoding of signature on verification,
 GHSA-qhqf-ghgh-x2m4,CVE-2017-0249,HIGH,Microsoft.AspNetCore.Mvc,NuGet,High severity vulnerability that affects Microsoft.AspNetCore.Mvc,
 GHSA-p8jx-x2vw-wm33,CVE-2018-1331,HIGH,org.apache.storm:storm-core,Maven,Code execution in org.apache.storm:storm-core,
@@ -7576,9 +7576,9 @@ GHSA-7xr3-rgwh-pw22,CVE-2018-8030,HIGH,org.apache.qpid:apache-qpid-broker-j,Mave
 GHSA-c99h-fgqm-6679,CVE-2018-11778,HIGH,org.apache.ranger:ranger,Maven,UnixAuthenticationService in Apache Ranger was updated to correctly handle user input to avoid Stack-based buffer overflow,
 GHSA-f9cm-p3w6-xvr3,CVE-2014-10064,HIGH,qs,npm,Denial-of-Service Extended Event Loop Blocking in qs,
 GHSA-x825-rjww-2245,CVE-2017-9799,HIGH,org.apache.storm:storm-core,Maven,"Apache Storm it is possible for the owner of a topology to trick the supervisor to launch a worker as a different, non-root, user",
-GHSA-pjfr-qf3p-3q25,CVE-2017-12615,HIGH,org.apache.tomcat.embed:tomcat-embed-core,Maven,When running Apache Tomcat on Windows with HTTP PUTs enabled it was possible to upload a JSP file to the server,1
+GHSA-pjfr-qf3p-3q25,CVE-2017-12615,HIGH,org.apache.tomcat.embed:tomcat-embed-core,Maven,When running Apache Tomcat on Windows with HTTP PUTs enabled it was possible to upload a JSP file to the server,
 GHSA-2mp8-qvqm-3xwq,CVE-2017-14868,HIGH,org.restlet.jse:org.restlet.ext.jaxrs,Maven,Restlet Framework Ja-rs extension is vulnerable to XXE when using SimpleXMLProvider,
-GHSA-x2rg-fmcv-crq5,CVE-2017-9822,HIGH,DotNetNuke.Core,NuGet,DNN (aka DotNetNuke) has Remote Code Execution via a cookie,1
+GHSA-x2rg-fmcv-crq5,CVE-2017-9822,HIGH,DotNetNuke.Core,NuGet,DNN (aka DotNetNuke) has Remote Code Execution via a cookie,
 GHSA-h6rp-8v4j-hwph,CVE-2014-0003,HIGH,org.apache.camel:camel-core,Maven,Apache Camel's XSLT component allows remote attackers to execute arbitrary Java methods,
 GHSA-vwxj-6m5m-rrvh,CVE-2017-9793,HIGH,org.apache.struts:struts2-rest-plugin,Maven,The REST Plugin in Apache Struts is using an outdated XStream library,
 GHSA-26v6-w6fw-rh94,CVE-2015-5348,HIGH,org.apache.camel:camel-jetty,Maven,Apache Camel can allow remote attackers to execute arbitrary commands,
@@ -7592,7 +7592,7 @@ GHSA-m59c-jpc8-m2x4,CVE-2018-1336,HIGH,org.apache.tomcat.embed:tomcat-embed-core
 GHSA-w3gh-g32m-cvhr,CVE-2018-8038,HIGH,org.apache.cxf.fediz:fediz-spring,Maven,"High severity vulnerability that affects org.apache.cxf.fediz:fediz-jetty8, org.apache.cxf.fediz:fediz-jetty9, org.apache.cxf.fediz:fediz-spring, org.apache.cxf.fediz:fediz-spring2, and org.apache.cxf.fediz:fediz-spring3",
 GHSA-95m6-mjh3-58gm,CVE-2016-8609,HIGH,org.keycloak:keycloak-core,Maven,Improper Authentication in org.keycloak:keycloak-core,
 GHSA-m9w8-v359-9ffr,CVE-2018-11775,HIGH,org.apache.activemq:activemq-client,Maven,Improper Certificate Validation in Apache activemq-client,
-GHSA-gg9m-fj3v-r58c,CVE-2017-9805,HIGH,org.apache.struts:struts2-rest-plugin,Maven,REST Plugin in Apache Struts uses an XStreamHandler with an instance of XStream for deserialization without any type filtering,1
+GHSA-gg9m-fj3v-r58c,CVE-2017-9805,HIGH,org.apache.struts:struts2-rest-plugin,Maven,REST Plugin in Apache Struts uses an XStreamHandler with an instance of XStream for deserialization without any type filtering,
 GHSA-w4pv-w56c-mg4v,CVE-2018-3734,HIGH,stattic,npm,Path Traversal in stattic,
 GHSA-5j2h-h5hg-3wf8,CVE-2011-0696,HIGH,Django,PyPI,Cross-site request forgery in Django,
 GHSA-vgjp-vh3c-32v3,CVE-2017-16146,HIGH,mockserve,npm,Directory Traversal in mockserve,
@@ -9663,7 +9663,7 @@ GHSA-hrwc-pqfm-g6qf,CVE-2017-1000085,MODERATE,org.jenkins-ci.plugins:subversion,
 GHSA-678x-xfp4-r92r,CVE-2009-0039,MODERATE,org.apache.geronimo.plugins:console,Maven,Apache Geronimo Application Server CSRF vulnerabilities,
 GHSA-63mw-hp3h-gc77,CVE-2020-2184,MODERATE,org.jenkins-ci.plugins:cvs,Maven,CSRF vulnerability in Jenkins CVS Plugin,
 GHSA-5r4x-qc7q-vj27,CVE-2009-5145,MODERATE,Zope2,PyPI,Zope Cross-site scripting (XSS) vulnerability in ZMI pages,
-GHSA-mrfm-jxgf-2h6v,CVE-2014-3120,MODERATE,org.elasticsearch:elasticsearch,Maven,Elasticsearch Improper Access Control vulnerability,1
+GHSA-mrfm-jxgf-2h6v,CVE-2014-3120,MODERATE,org.elasticsearch:elasticsearch,Maven,Elasticsearch Improper Access Control vulnerability,
 GHSA-q748-mcwg-xmqv,CVE-2015-5251,MODERATE,glance,PyPI,OpenStack Image Service (Glance) allows remote authenticated users to bypass access restrictions,
 GHSA-8gwc-x7mg-7p7p,CVE-2013-5823,MODERATE,org.apache.santuario:xmlsec,Maven,Apache XML Security For Java vulnerable to Infinite Loop,
 GHSA-9jv5-wf44-8vfm,CVE-2020-2289,MODERATE,org.biouno:uno-choice,Maven,Stored XSS vulnerability in Jenkins Active Choices Plugin,
@@ -14772,7 +14772,7 @@ GHSA-r6j3-px5g-cq3x,CVE-2023-45648,MODERATE,org.apache.tomcat:tomcat,Maven,Apach
 GHSA-7pfc-834q-h497,CVE-2023-38251,MODERATE,magento/community-edition,Packagist,Magento Open Source allows Uncontrolled Resource Consumption,
 GHSA-5ghm-h2wq-g3mh,CVE-2023-5573,MODERATE,@vrite/sdk,npm,Allocation of Resources Without Limits or Throttling in vriteio/vrite,
 GHSA-rjxg-rpg3-9r89,CVE-2023-46125,MODERATE,ethyca-fides,PyPI,Fides Information Disclosure Vulnerability in Config API Endpoint,
-GHSA-qppj-fm5r-hxr3,CVE-2023-44487,MODERATE,github.com/apple/swift-nio-http2,SwiftURL,HTTP/2 Stream Cancellation Attack,1
+GHSA-qppj-fm5r-hxr3,CVE-2023-44487,MODERATE,github.com/apple/swift-nio-http2,SwiftURL,HTTP/2 Stream Cancellation Attack,
 GHSA-j4vj-w5rj-8grw,CVE-2023-5863,MODERATE,thorsten/phpmyfaq,Packagist,phpMyFAQ Cross-site Scripting vulnerability,
 GHSA-ggj4-78rm-6xgv,CVE-2023-43647,MODERATE,baserproject/basercms,Packagist,baserCMS Cross-site Scripting vulnerability in File upload Feature,
 GHSA-j3w8-2p2h-mrr9,CVE-2023-42792,MODERATE,apache-airflow,PyPI,Apache Airflow vulnerable to privilege escalation,
@@ -15604,7 +15604,7 @@ GHSA-cpjc-p7fc-j9xh,CVE-2011-0739,MODERATE,mail,RubyGems,Mail Improper Input Val
 GHSA-xxr8-833v-c7wc,CVE-2011-4319,MODERATE,actionpack,RubyGems,Cross-site Scripting vulnerability in i18n translations helper method,
 GHSA-xrr6-3pc4-m447,CVE-2015-7577,MODERATE,activerecord,RubyGems,Active Record Improper Access Control,
 GHSA-84fq-6626-w5fg,CVE-2014-7193,MODERATE,crumb,npm,CORS Token Disclosure in crumb,
-GHSA-6x85-j5j2-27jx,CVE-2014-0130,MODERATE,actionpack,RubyGems,actionpack Path Traversal vulnerability,1
+GHSA-6x85-j5j2-27jx,CVE-2014-0130,MODERATE,actionpack,RubyGems,actionpack Path Traversal vulnerability,
 GHSA-fcqf-h4h4-695m,CVE-2011-3186,MODERATE,actionpack,RubyGems,actionpack CRLF injection vulnerability,
 GHSA-ww79-8xwv-932x,CVE-2014-0036,MODERATE,rbovirt,RubyGems,rbovirt uses the rest-client gem with SSL verification disabled,
 GHSA-29gr-w57f-rpfw,CVE-2014-7818,MODERATE,actionpack,RubyGems,actionpack vulnerable to Path Traversal,
@@ -16907,7 +16907,7 @@ GHSA-c2h6-7gm8-cv4w,CVE-2020-5497,MODERATE,org.mitre:openid-connect-server,Maven
 GHSA-9475-xg6m-j7pw,CVE-2020-5268,MODERATE,Sustainsys.Saml2,NuGet,Subject Confirmation Method not validated in Saml2 Authentication Services for ASP.NET,
 GHSA-fv3h-8x5j-pvgq,CVE-2020-11888,MODERATE,markdown2,PyPI,XSS in python-markdown2,
 GHSA-vh95-rmgr-6w4m,CVE-2020-7598,MODERATE,minimist,npm,Prototype Pollution in minimist,
-GHSA-jpcq-cgw6-v4j6,CVE-2020-11023,MODERATE,jquery,npm,Potential XSS vulnerability in jQuery,1
+GHSA-jpcq-cgw6-v4j6,CVE-2020-11023,MODERATE,jquery,npm,Potential XSS vulnerability in jQuery,
 GHSA-8vf3-4w62-m3pq,CVE-2020-1697,MODERATE,org.keycloak:keycloak-core,Maven,XSS in Keycloak,
 GHSA-jgpq-g82g-6c39,CVE-2020-7638,MODERATE,confinit,npm,confinit vulnerable to prototype pollution,
 GHSA-59cf-m7v5-wh5w,CVE-2020-11070,MODERATE,t3g/svg-sanitizer,Packagist,Cross-Site Scripting in SVG Sanitizer,
@@ -16971,7 +16971,7 @@ GHSA-36j3-xxf7-4pqg,CVE-2020-6506,MODERATE,react-native-webview,npm,Android WebV
 GHSA-6r7x-hc8m-985r,CVE-2020-9038,MODERATE,joplin,npm,Cross-site Scripting in Joplin,
 GHSA-8xv9-qcr9-ww9j,,MODERATE,shopware/platform,Packagist,Authenticated XML External Entity Processing,
 GHSA-6gw4-x63h-5499,CVE-2020-15245,MODERATE,sylius/sylius,Packagist,Ability to switch customer email address on account detail page and stay verified,
-GHSA-pv36-h7jh-qm62,CVE-2020-15999,MODERATE,CefSharp.Common,NuGet,Heap buffer overflow in CefSharp,1
+GHSA-pv36-h7jh-qm62,CVE-2020-15999,MODERATE,CefSharp.Common,NuGet,Heap buffer overflow in CefSharp,
 GHSA-fj59-f6c3-3vw4,CVE-2020-26300,MODERATE,systeminformation,npm,Command Injection in systeminformation,
 GHSA-f9mq-jph6-9mhm,CVE-2020-4075,MODERATE,electron,npm,Arbitrary file read via window-open IPC in Electron,
 GHSA-hg7c-66ff-9q8g,,MODERATE,constantinople,npm,Sandbox bypass in constantinople,
@@ -17035,7 +17035,7 @@ GHSA-wfw3-rgfr-6g67,CVE-2017-16009,MODERATE,ag-grid,npm,XSS via Angular Expressi
 GHSA-f8mr-jv2c-v8mg,CVE-2020-15163,MODERATE,tuf,PyPI,Invalid root may become trusted root in The Update Framework (TUF),
 GHSA-p82g-2xpp-m5r3,CVE-2015-5654,MODERATE,dojo,npm,Cross-Site Scripting in dojo,
 GHSA-88h9-fc6v-jcw7,,MODERATE,larvitbase-www,npm,Unintended Require in larvitbase-www,
-GHSA-c2gp-86p4-5935,CVE-2019-5786,MODERATE,puppeteer,npm,Use-After-Free in puppeteer,1
+GHSA-c2gp-86p4-5935,CVE-2019-5786,MODERATE,puppeteer,npm,Use-After-Free in puppeteer,
 GHSA-4vvp-x9h2-x2vf,,MODERATE,public,npm,Path Traversal in public,
 GHSA-mvmf-cvfx-qg55,CVE-2014-8881,MODERATE,bleach,npm,Regular Expression Denial of Service in bleach,
 GHSA-qc53-44cj-vfvx,CVE-2020-15197,MODERATE,tensorflow,PyPI,Denial of Service in Tensorflow,
@@ -18792,8 +18792,8 @@ GHSA-2rmm-87v7-34rj,CVE-2022-25312,CRITICAL,org.apache.any23:apache-any23,Maven,
 GHSA-32gv-6cf3-wcmq,,CRITICAL,twisted,PyPI,"HTTP/2 DoS Attacks: Ping, Reset, and Settings Floods",
 GHSA-p6h4-93qp-jhcm,CVE-2022-24760,CRITICAL,parse-server,npm,Command injection in Parse Server through prototype pollution,
 GHSA-xr2c-5w89-63pv,CVE-2022-26184,CRITICAL,poetry,PyPI,Poetry before v1.1.9 contains Untrusted Search Path,
-GHSA-36p3-wjmg-h94x,CVE-2022-22965,CRITICAL,org.springframework:spring-beans,Maven,Remote Code Execution in Spring Framework,1
-GHSA-r7c9-c69m-rph8,CVE-2017-9841,CRITICAL,phpunit/phpunit,Packagist,Code Injection in PHPUnit,1
+GHSA-36p3-wjmg-h94x,CVE-2022-22965,CRITICAL,org.springframework:spring-beans,Maven,Remote Code Execution in Spring Framework,
+GHSA-r7c9-c69m-rph8,CVE-2017-9841,CRITICAL,phpunit/phpunit,Packagist,Code Injection in PHPUnit,
 GHSA-qwh6-xwj4-9cjg,CVE-2021-46384,CRITICAL,net.mingsoft:ms-mcms,Maven,Remote code execution in net.mingsoft:ms-mcms,
 GHSA-2647-c639-qv2j,CVE-2022-0766,CRITICAL,calibreweb,PyPI,Server-Side Request Forgery in calibreweb,
 GHSA-6956-83fg-5wc5,CVE-2022-25354,CRITICAL,set-in,npm,Prototype Pollution in set-in,
@@ -18818,7 +18818,7 @@ GHSA-jc4v-vvg6-xg78,CVE-2021-26599,CRITICAL,impresscms/impresscms,Packagist,SQL 
 GHSA-h65g-jfqg-2w6m,CVE-2022-0767,CRITICAL,calibreweb,PyPI,Server-Side Request Forgery in calibreweb,
 GHSA-gcx2-gvj7-pxv3,CVE-2022-24766,CRITICAL,mitmproxy,PyPI,Insufficient Protection against HTTP Request Smuggling in mitmproxy,
 GHSA-97m3-w2cp-4xx6,CVE-2022-23812,CRITICAL,node-ipc,npm,Embedded Malicious Code in node-ipc,
-GHSA-3gx9-37ww-9qw6,CVE-2022-22947,CRITICAL,org.springframework.cloud:spring-cloud-gateway,Maven,"Spring Cloud Gateway vulnerable to Code Injection when Gateway Actuator endpoint enabled, exposed, unsecured",1
+GHSA-3gx9-37ww-9qw6,CVE-2022-22947,CRITICAL,org.springframework.cloud:spring-cloud-gateway,Maven,"Spring Cloud Gateway vulnerable to Code Injection when Gateway Actuator endpoint enabled, exposed, unsecured",
 GHSA-qmfc-6www-fjqw,CVE-2021-30181,CRITICAL,com.alibaba:dubbo,Maven,Code injection in Apache Dubbo,
 GHSA-99wh-973f-779p,CVE-2022-0265,CRITICAL,com.hazelcast:hazelcast,Maven,XML External Entity Reference in Hazelcast,
 GHSA-2xmm-g482-4439,CVE-2022-24752,CRITICAL,sylius/grid-bundle,Packagist,DQL injection through sorting parameters blocked,
@@ -18834,7 +18834,7 @@ GHSA-m7xq-8jp8-rj2c,CVE-2022-29080,CRITICAL,npm-dependency-versions,npm,Command 
 GHSA-ffhq-g856-9f2p,CVE-2022-28397,CRITICAL,ghost,npm,Arbitrary file upload in Ghost,
 GHSA-3v5x-qjrp-q2hq,CVE-2022-27260,CRITICAL,buttercms,npm,Unrestricted Upload of File with Dangerous Type in ButterCMS,
 GHSA-hcq9-hmgf-6qr9,CVE-2011-2715,CRITICAL,drupal/core,Packagist,Drupal SQL Injection vulnerability,
-GHSA-6v73-fgf6-w5j7,CVE-2022-22963,CRITICAL,org.springframework.cloud:spring-cloud-function-context,Maven,Spring Cloud Function Code Injection with a specially crafted SpEL as a routing expression,1
+GHSA-6v73-fgf6-w5j7,CVE-2022-22963,CRITICAL,org.springframework.cloud:spring-cloud-function-context,Maven,Spring Cloud Function Code Injection with a specially crafted SpEL as a routing expression,
 GHSA-qffw-8wg7-h665,CVE-2022-1440,CRITICAL,git-interface,npm,Command injection in git-interface,
 GHSA-v8j6-6c2r-r27c,CVE-2021-31805,CRITICAL,org.apache.struts:struts2-core,Maven,Expression Language Injection in Apache Struts,
 GHSA-9qgm-w87q-hx89,CVE-2022-27263,CRITICAL,strapi,npm,Unrestricted Upload of File with Dangerous Type in Strapi,
@@ -18870,7 +18870,7 @@ GHSA-2gwj-7jmv-h26r,CVE-2022-28346,CRITICAL,Django,PyPI,SQL Injection in Django,
 GHSA-79gv-5cgx-x6rx,CVE-2011-4628,CRITICAL,typo3/cms,Packagist,Typo3 Authentication Bypass,
 GHSA-m269-wj6g-c459,CVE-2016-10127,CRITICAL,pysaml2,PyPI,PySAML2 XML external entity attack,
 GHSA-x23q-4j9j-9cxw,CVE-2021-40720,CRITICAL,ops-cli,PyPI,Ops CLI Deserialization of Untrusted Data vulnerability,
-GHSA-rxqh-fc23-gxp2,CVE-2016-3088,CRITICAL,org.apache.activemq:activemq-client,Maven,Improper Input Validation in Apache ActiveMQ,1
+GHSA-rxqh-fc23-gxp2,CVE-2016-3088,CRITICAL,org.apache.activemq:activemq-client,Maven,Improper Input Validation in Apache ActiveMQ,
 GHSA-f4qx-jqfq-7785,CVE-2017-6925,CRITICAL,drupal/core,Packagist,Drupal Entity access bypass for entities that do not have UUIDs or have protected revisions,
 GHSA-77xq-7c6p-6xp6,CVE-2013-2095,CRITICAL,openshift-origin-controller,RubyGems,RubyGem openshift-origin-controller is vulnerable to command injection,
 GHSA-f732-fxh6-g4qj,CVE-2019-6798,CRITICAL,phpmyadmin/phpmyadmin,Packagist,phpMyAdmin SQL injection in Designer feature,
@@ -18999,7 +18999,7 @@ GHSA-f4g4-cj8f-3cr9,CVE-2017-7214,CRITICAL,nova,PyPI,OpenStack Nova logs sensiti
 GHSA-3px5-wjh3-9x6r,CVE-2020-35129,CRITICAL,mautic/core,Packagist,Mautic stored Cross-site Scripting (XSS),
 GHSA-84gf-rw24-pfqg,CVE-2020-21808,CRITICAL,nukeviet/nukeviet,Packagist,NukeViet SQL Injection vulnerability via topicsid parameter,
 GHSA-83m8-7hj8-ff5w,CVE-2019-19899,CRITICAL,io.pebbletemplates:pebble-project,Maven,Pebble Templates Improper Input Validation vulnerability,
-GHSA-pjhf-vpx3-33r3,CVE-2020-11651,CRITICAL,salt,PyPI,SaltStack Salt Unauthenticated Remote Code Execution,1
+GHSA-pjhf-vpx3-33r3,CVE-2020-11651,CRITICAL,salt,PyPI,SaltStack Salt Unauthenticated Remote Code Execution,
 GHSA-xhq3-455r-xv44,CVE-2017-2641,CRITICAL,moodle/moodle,Packagist,Moodle SQL injection via user preferences,
 GHSA-4hx3-m8w5-g5qh,CVE-2018-8073,CRITICAL,yiisoft/yii2-redis,Packagist,yii2-redis Potential Remote code execution,
 GHSA-pqwh-44jj-p5rm,CVE-2013-4366,CRITICAL,org.apache.httpcomponents:httpclient,Maven,Hostname verification in Apache HttpClient 4.3 was disabled by default,
@@ -19011,7 +19011,7 @@ GHSA-jc94-wp59-pq4f,CVE-2017-10842,CRITICAL,baserproject/basercms,Packagist,base
 GHSA-ccr8-4xr7-cgj3,CVE-2020-2279,CRITICAL,org.jenkins-ci.plugins:script-security,Maven,Sandbox bypass vulnerability in Jenkins Script Security Plugin,
 GHSA-567r-vqj7-5cw7,CVE-2016-6629,CRITICAL,phpmyadmin/phpmyadmin,Packagist,phpMyAdmin Authentication Bypass,
 GHSA-4j79-4m6q-77vf,CVE-2017-5543,CRITICAL,intelliants/subrion,Packagist,Subrion CMS PHP Object Injection,
-GHSA-qr38-h96j-2j3w,CVE-2020-16846,CRITICAL,salt,PyPI,SaltStack Salt Command Injection in netapi ssh client,1
+GHSA-qr38-h96j-2j3w,CVE-2020-16846,CRITICAL,salt,PyPI,SaltStack Salt Command Injection in netapi ssh client,
 GHSA-4223-qj94-7x9p,CVE-2019-9194,CRITICAL,studio-42/elfinder,Packagist,elFinder command injection vulnerability in the PHP connector,
 GHSA-j7j7-g4ww-pxg5,CVE-2018-1287,CRITICAL,org.apache.jmeter:ApacheJMeter,Maven,Missing certificate validation in Apache JMeter,
 GHSA-7m7g-jq4m-98w5,CVE-2013-6288,CRITICAL,apache-solr-for-typo3/solr,Packagist,Apache Solr for TYPO3 (solr) extension is vulnerable to Insecure Unserialize,
@@ -19049,7 +19049,7 @@ GHSA-cf8f-w2c5-p5jr,CVE-2019-14837,CRITICAL,org.keycloak:keycloak-core,Maven,key
 GHSA-cr9c-rhq6-vh53,CVE-2022-29351,CRITICAL,tiddlywiki,npm,Withdrawn: Code execution via SVG file upload in tiddlywiki,
 GHSA-mqwr-4qf2-2hcv,CVE-2017-0903,CRITICAL,rubygems-update,RubyGems,RubyGems vulnerable to Deserialization of Untrusted Data,
 GHSA-6fvw-x6gw-4wv8,CVE-2021-42325,CRITICAL,froxlor/froxlor,Packagist,Froxlor SQL injection vulnerability,
-GHSA-7fh9-933g-885p,CVE-2018-7600,CRITICAL,drupal/core,Packagist,Drupal Core Remote Code Execution Vulnerability,1
+GHSA-7fh9-933g-885p,CVE-2018-7600,CRITICAL,drupal/core,Packagist,Drupal Core Remote Code Execution Vulnerability,
 GHSA-3393-r4p5-vhqh,CVE-2019-11576,CRITICAL,code.gitea.io/gitea,Go,Gitea Allows 1FA Even for 2FA-Enrolled Accounts,
 GHSA-57qv-h9m7-jxfg,CVE-2022-28470,CRITICAL,marcador,PyPI,Code-execution backdoor in marcador,
 GHSA-pfg4-p438-p874,CVE-2019-9081,CRITICAL,laravel/framework,Packagist,Laravel Framework Deserialization Vulnerability,
@@ -19061,7 +19061,7 @@ GHSA-29ph-fjf3-c5cm,CVE-2017-15697,CRITICAL,org.apache.nifi:nifi,Maven,Apache Ni
 GHSA-jrcv-3c5h-rh3q,CVE-2018-9160,CRITICAL,sickrage,PyPI,SiCKRAGE Discloses Plaintext Credentials,
 GHSA-jhcf-j4hg-v64r,CVE-2019-18981,CRITICAL,pimcore/pimcore,Packagist,Pimcore Access Control Issues,
 GHSA-69vw-jfq7-935g,CVE-2011-0432,CRITICAL,pywebdav,PyPI,PyWebDAV SQL Injection vulnerability,
-GHSA-p836-389h-j692,CVE-2016-4437,CRITICAL,org.apache.shiro:shiro-core,Maven,Improper Access Control in Apache Shiro,1
+GHSA-p836-389h-j692,CVE-2016-4437,CRITICAL,org.apache.shiro:shiro-core,Maven,Improper Access Control in Apache Shiro,
 GHSA-376m-3rm2-9jm6,CVE-2016-8638,CRITICAL,ipsilon,PyPI,Session Fixation in ipsilon,
 GHSA-wvpv-8524-wg6x,CVE-2017-18197,CRITICAL,mxgraph,npm,mxGraph vulnerable to XXE attacks,
 GHSA-vqqg-xgv7-cf68,CVE-2017-8045,CRITICAL,org.springframework.amqp:spring-amqp,Maven,Deserialization of Untrusted Data in Spring AMQP,
@@ -19148,10 +19148,10 @@ GHSA-mwxh-6j9v-45ph,CVE-2020-13693,CRITICAL,bbpress/bbpress,Packagist,bbPress un
 GHSA-8mwx-wpp4-5xh4,CVE-2019-8149,CRITICAL,magento/community-edition,Packagist,Magento Broken authentication and session managememt,
 GHSA-gw37-vmvw-f833,CVE-2017-7886,CRITICAL,dolibarr/dolibarr,Packagist,Dolibarr SQL Injection in doli/theme/eldy/style.css.php via the lang parameter,
 GHSA-w2xf-4gg9-87wr,CVE-2018-19281,CRITICAL,centreon/centreon,Packagist,Centreon allows SNMP trap SQL Injection,
-GHSA-xvxq-hq48-xphm,CVE-2019-1003029,CRITICAL,org.jenkins-ci.plugins:script-security,Maven,Sandbox bypass in Script Security Plugin,1
+GHSA-xvxq-hq48-xphm,CVE-2019-1003029,CRITICAL,org.jenkins-ci.plugins:script-security,Maven,Sandbox bypass in Script Security Plugin,
 GHSA-584h-jhxh-pxp2,CVE-2018-14009,CRITICAL,codiad/codiad,Packagist,Codiad remote code execution vulnerability,
 GHSA-jf7x-57g8-9hm5,CVE-2020-28088,CRITICAL,org.jeecgframework.boot:jeecg-boot-parent,Maven,Jeecg-Boot CMS arbitrary file upload vulnerability,
-GHSA-j7mw-7crr-658v,CVE-2018-14667,CRITICAL,org.richfaces:richfaces-core,Maven,Richfaces vulnerable to arbitrary code execution,1
+GHSA-j7mw-7crr-658v,CVE-2018-14667,CRITICAL,org.richfaces:richfaces-core,Maven,Richfaces vulnerable to arbitrary code execution,
 GHSA-vj95-2f9q-x7h6,CVE-2018-15747,CRITICAL,github.com/prasmussen/glot-code-runner,Go,glot-code-runner RCE,
 GHSA-8xg4-xq2v-v6j7,CVE-2021-21692,CRITICAL,org.jenkins-ci.main:jenkins-core,Maven,Multiple vulnerabilities allow bypassing path filtering of agent-to-controller access control in Jenkins,
 GHSA-45x3-mw7q-wf7f,CVE-2018-9109,CRITICAL,studio-42/elfinder,Packagist,elFinder Path Traversal vulnerability,
@@ -19210,7 +19210,7 @@ GHSA-9fq2-x9r6-wfmf,CVE-2019-6446,CRITICAL,numpy,PyPI,Numpy Deserialization of U
 GHSA-q7q2-qf2q-rw3w,CVE-2014-1418,CRITICAL,Django,PyPI,Django Vulnerable to Cache Poisoning,
 GHSA-2chv-87wj-pjv2,CVE-2019-15563,CRITICAL,org.ohdsi:WebAPI,Maven,OHDSI WebAPI vulnerable to SQL Injection,
 GHSA-r48h-jr2j-9g78,CVE-2018-9057,CRITICAL,github.com/hashicorp/terraform-provider-aws,Go, HashiCorp Terraform Amazon Web Services (AWS) uses an insecure PRNG ,
-GHSA-cw54-59pw-4g8c,CVE-2016-8735,CRITICAL,org.apache.tomcat:tomcat-catalina-jmx-remote,Maven,Apache Tomcat Improper Access Control vulnerability,1
+GHSA-cw54-59pw-4g8c,CVE-2016-8735,CRITICAL,org.apache.tomcat:tomcat-catalina-jmx-remote,Maven,Apache Tomcat Improper Access Control vulnerability,
 GHSA-895m-ww55-59vw,CVE-2016-3086,CRITICAL,org.apache.hadoop:hadoop-yarn-server-nodemanager,Maven,Exposure of Sensitive Information to an Unauthorized Actor in Apache Hadoop,
 GHSA-q8cr-xphm-7gfv,CVE-2017-1000009,CRITICAL,akeneo/pim-community-dev,Packagist,Akeneo PIM vulnerable to shell injection in the mass edition,
 GHSA-98vc-98q7-57qf,CVE-2017-7888,CRITICAL,dolibarr/dolibarr,Packagist,Dolibarr ERP and CRM Insecure Encryption,
@@ -19268,11 +19268,11 @@ GHSA-h2p3-h48h-9jj7,CVE-2017-1000220,CRITICAL,pidusage,npm,PIDUsage Enables OS C
 GHSA-6frc-vfw9-wm27,CVE-2017-17900,CRITICAL,dolibarr/dolibarr,Packagist,Dolibarr SQL injection vulnerability in fourn/index.php,
 GHSA-8ppf-x4gr-2x7g,CVE-2022-30765,CRITICAL,calibreweb,PyPI,SQL injection in calibreweb,
 GHSA-c74c-p4p7-r8q5,CVE-2019-16225,CRITICAL,lmdb,PyPI,py-lmdb Invalid write operation,
-GHSA-hhpm-5cp2-hg4x,CVE-2018-1000861,CRITICAL,org.jenkins-ci.main:jenkins-core,Maven,Deserialization of Untrusted Data in Jenkins,1
-GHSA-r6mc-mrvr-23cr,CVE-2019-1003030,CRITICAL,org.jenkins-ci.plugins.workflow:workflow-cps,Maven,Sandbox bypass in Jenkins Pipeline: Groovy Plugin,1
+GHSA-hhpm-5cp2-hg4x,CVE-2018-1000861,CRITICAL,org.jenkins-ci.main:jenkins-core,Maven,Deserialization of Untrusted Data in Jenkins,
+GHSA-r6mc-mrvr-23cr,CVE-2019-1003030,CRITICAL,org.jenkins-ci.plugins.workflow:workflow-cps,Maven,Sandbox bypass in Jenkins Pipeline: Groovy Plugin,
 GHSA-8fj6-pc5r-347q,CVE-2020-24913,CRITICAL,qcubed/qcubed,Packagist,qcubed SQL injection vulnerability in profile.php via the strQuery parameter,
 GHSA-f88q-22g8-frcg,CVE-2018-1000226,CRITICAL,cobbler,PyPI,Cobbler Improper Validation of Security Tokens,
-GHSA-29rm-6752-gvwv,CVE-2017-9791,CRITICAL,org.apache.struts:struts2-struts1-plugin,Maven,Code execution in Apache Struts 1 plugin,1
+GHSA-29rm-6752-gvwv,CVE-2017-9791,CRITICAL,org.apache.struts:struts2-struts1-plugin,Maven,Code execution in Apache Struts 1 plugin,
 GHSA-r4v4-3jj7-jc29,CVE-2019-17134,CRITICAL,octavia,PyPI,OpenStack Octavia Amphora-Agent not requiring Client-Certificate,
 GHSA-c95f-27gx-6vq9,CVE-2015-5243,CRITICAL,jsmitty12/phpwhois,Packagist,phpWhois arbitrary code execution via a crafted whois record,
 GHSA-w799-prg3-cx77,CVE-2016-7036,CRITICAL,python-jose,PyPI,python-jose failure to use a constant time comparison for HMAC keys,
@@ -19342,7 +19342,7 @@ GHSA-q53j-p6r2-g2v4,CVE-2019-17361,CRITICAL,salt,PyPI,SaltStack Salt is vulnerab
 GHSA-mcpw-cp35-p3h8,CVE-2019-15753,CRITICAL,os-vif,PyPI,OpenStack os-vif Ageing time of 0 disables linuxbridge MAC learning,
 GHSA-3qm2-rfqw-fmrw,CVE-2021-28031,CRITICAL,scratchpad,crates.io,move_elements can double-free objects on panic,
 GHSA-g4rg-993r-mgx7,CVE-2021-42740,CRITICAL,shell-quote,npm,Improper Neutralization of Special Elements used in a Command in Shell-quote,
-GHSA-w7pm-cc4v-f3g8,CVE-2020-7961,CRITICAL,com.liferay.portal:com.liferay.portal.kernel,Maven,Deserialization of Untrusted Data in Liferay Portal,1
+GHSA-w7pm-cc4v-f3g8,CVE-2020-7961,CRITICAL,com.liferay.portal:com.liferay.portal.kernel,Maven,Deserialization of Untrusted Data in Liferay Portal,
 GHSA-f46p-q6jh-226m,CVE-2019-10418,CRITICAL,io.fabric8.pipeline:kubernetes-pipeline-arquillian-steps,Maven,Incorrect Authorization in Jenkins Kubernetes :: Pipeline :: Arquillian Steps Plugin,
 GHSA-58h8-44mg-r43x,CVE-2013-4409,CRITICAL,djblets,PyPI,ReviewBoard and Djblets library are vulnerable to code execution,
 GHSA-fh55-vwjc-69c7,CVE-2022-31267,CRITICAL,com.gitblit:gitblit,Maven,Unescaped control characters in Gitblit,
@@ -19382,7 +19382,7 @@ GHSA-fr6q-jv7j-35g3,CVE-2022-0401,CRITICAL,w-zip,npm,Path Traversal in w-zip,
 GHSA-74mg-6xqx-2vrq,CVE-2020-11995,CRITICAL,org.apache.dubbo:dubbo-parent,Maven,Deserialization exploitation in Apache Dubbo,
 GHSA-2pmw-cvc7-frvh,CVE-2021-44868,CRITICAL,net.mingsoft:ms-mcms,Maven,SQL injection in MCMS,
 GHSA-6hr9-4692-fch9,CVE-2020-7624,CRITICAL,effect,npm,Withdrawn Advisory: OS Command Injection in effect,
-GHSA-jc35-q369-45pv,CVE-2020-17530,CRITICAL,org.apache.struts:struts2-core,Maven,Remote code execution in Apache Struts,1
+GHSA-jc35-q369-45pv,CVE-2020-17530,CRITICAL,org.apache.struts:struts2-core,Maven,Remote code execution in Apache Struts,
 GHSA-gc79-gh4f-9g6w,CVE-2021-46063,CRITICAL,net.mingsoft:ms-mcms,Maven,Server Side Template Injection in MCMS,
 GHSA-765h-qjxv-5f44,CVE-2021-23383,CRITICAL,handlebars,npm,Prototype Pollution in handlebars,
 GHSA-389p-fchr-q2mg,CVE-2022-24977,CRITICAL,impresscms/impresscms,Packagist,Path Traversal in ImpressCMS,
@@ -19409,7 +19409,7 @@ GHSA-g8j8-mgh9-q77p,CVE-2021-46036,CRITICAL,net.mingsoft:ms-mcms,Maven,File uplo
 GHSA-4cxw-hq44-r344,CVE-2021-4070,CRITICAL,github.com/v2fly/v2ray-core/v4,Go,Off-by-one Error in v2fly/v2ray-core,
 GHSA-52vv-3vf7-f7wh,CVE-2022-0671,CRITICAL,org.eclipse.lemminx:lemminx-parent,Maven,Server-Side Request Forgery and Uncontrolled Resource Consumption in LemMinX,
 GHSA-579h-mv94-g4gp,CVE-2018-1002105,CRITICAL,github.com/kubernetes/kubernetes,Go,Privilege Escalation in Kubernetes,
-GHSA-f8fv-f786-9933,CVE-2022-24086,CRITICAL,magento/community-edition,Packagist,Magento improper input validation vulnerability,1
+GHSA-f8fv-f786-9933,CVE-2022-24086,CRITICAL,magento/community-edition,Packagist,Magento improper input validation vulnerability,
 GHSA-8478-53pv-jxvm,CVE-2022-23340,CRITICAL,joplin,npm,Joplin Vulnerable to Code Injection,
 GHSA-m4hg-5p2m-fm5m,CVE-2021-46361,CRITICAL,info.magnolia:magnolia-core,Maven,Arbitrary code execution in Magnolia CMS,
 GHSA-7c6q-jqwc-4423,CVE-2017-15681,CRITICAL,org.craftercms:crafter-studio,Maven,Path Traversal in Crafter CMS Crafter Studio,
@@ -19434,7 +19434,7 @@ GHSA-394j-x37r-2q27,,CRITICAL,ibexa/core,Packagist,Ibexa DXP users with the Comp
 GHSA-cm7f-hf2g-ghrp,CVE-2022-37721,CRITICAL,pyrocms/pyrocms,Packagist,PyroCMS vulnerable to stored Cross Site Scripting,
 GHSA-fhw8-8j55-vwgq,CVE-2022-45047,CRITICAL,org.apache.sshd:sshd-common,Maven,Unsafe deserialization in Apache MINA SSHD,
 GHSA-p5v9-g8w8-5q4v,CVE-2022-41930,CRITICAL,org.xwiki.platform:xwiki-platform-user-profile-ui,Maven,Missing Authorization to enable or disable users in org.xwiki.platform:xwiki-platform-user-profile-ui,
-GHSA-995f-9x5r-2rcj,CVE-2022-4135,CRITICAL,electron,npm,Heap buffer overflow in GPU,1
+GHSA-995f-9x5r-2rcj,CVE-2022-4135,CRITICAL,electron,npm,Heap buffer overflow in GPU,
 GHSA-7fw6-6mfj-g3q2,,CRITICAL,ckb,crates.io,ckb: Transaction header_deps validation issue (network forking),
 GHSA-4p38-rc98-cr39,CVE-2022-44136,CRITICAL,tribalsystems/zenario,Packagist,Zenario CMS is vulnerable to Remote Code Execution (RCE).,
 GHSA-7fxj-fr3v-r9gj,CVE-2022-3023,CRITICAL,github.com/pingcap/tidb,Go,TiDB vulnerable to Use of Externally-Controlled Format String,
@@ -19843,7 +19843,7 @@ GHSA-hw46-3hmr-x9xv,,CRITICAL,omniauth-saml,RubyGems,omniauth-saml has dependenc
 GHSA-3xq5-x4fj-rff7,CVE-2024-10902,CRITICAL,dbgpt,PyPI,DB-GPT vulnerable to Arbitrary File Upload with Path Traversal,
 GHSA-j9g7-mqhh-9hxf,CVE-2024-10833,CRITICAL,dbgpt,PyPI,DB-GPT Absolute Path Traversal in knowledge/{space_name}/document/upload,
 GHSA-pgr7-mhp5-fgjp,CVE-2024-9052,CRITICAL,vllm,PyPI,vLLM deserialization vulnerability in vllm.distributed.GroupCoordinator.recv_object,
-GHSA-83qj-6fr2-vhqg,CVE-2025-24813,CRITICAL,org.apache.tomcat:tomcat-catalina,Maven,Apache Tomcat: Potential RCE and/or information disclosure and/or information corruption with partial PUT,1
+GHSA-83qj-6fr2-vhqg,CVE-2025-24813,CRITICAL,org.apache.tomcat:tomcat-catalina,Maven,Apache Tomcat: Potential RCE and/or information disclosure and/or information corruption with partial PUT,
 GHSA-8vvx-qvq9-5948,,CRITICAL,flowise,npm,Flowise allows arbitrary file write to RCE,
 GHSA-gjxm-x497-4h6h,CVE-2025-0655,CRITICAL,dtale,PyPI,D-Tale Command Injection vulnerability,
 GHSA-h7xg-cmpp-48hf,CVE-2024-10553,CRITICAL,h2o,PyPI,H2O Deserialization of Untrusted Data Vulnerability,
@@ -19947,7 +19947,7 @@ GHSA-5gmm-6m36-r7jh,,CRITICAL,transpose,crates.io,transpose: Buffer overflow due
 GHSA-hf43-47q4-fhq5,CVE-2024-31996,CRITICAL,org.xwiki.commons:xwiki-commons-velocity,Maven,XWiki Commons missing escaping of `{` in Velocity escapetool allows remote code execution,
 GHSA-7vf4-x5m2-r6gr,CVE-2024-28253,CRITICAL,org.open-metadata:openmetadata-service,Maven,OpenMetadata vulnerable to SpEL Injection in `PUT /api/v1/policies` (`GHSL-2023-252`),
 GHSA-mxvw-cj37-8g2h,CVE-2024-2195,CRITICAL,aim,PyPI,Aim Web API vulnerable to Remote Code Execution,
-GHSA-297x-j9pm-xjgg,CVE-2018-7602,CRITICAL,drupal/core,Packagist,Drupal Core Remote Code Execution Vulnerability,1
+GHSA-297x-j9pm-xjgg,CVE-2018-7602,CRITICAL,drupal/core,Packagist,Drupal Core Remote Code Execution Vulnerability,
 GHSA-828r-r2c8-rfw3,CVE-2020-14316,CRITICAL,kubevirt.io/kubevirt,Go,Privilege Escalation in kubevirt,
 GHSA-vc6q-ccj9-9r89,CVE-2024-27448,CRITICAL,maildev,npm,MailDev Remote Code Execution,
 GHSA-wvpx-g427-q9wc,CVE-2024-3098,CRITICAL,llama-index-core,PyPI,llama-index-core Prompt Injection vulnerability leading to Arbitrary Code Execution,
@@ -19967,7 +19967,7 @@ GHSA-xxp2-9c9g-7wmj,CVE-2024-31983,CRITICAL,org.xwiki.platform:xwiki-platform-lo
 GHSA-qh9w-r7g5-q939,CVE-2014-8089,CRITICAL,zendframework/zendframework1,Packagist,Zend Framework SQL injection vulnerability,
 GHSA-3fp5-2xwh-fxm6,CVE-2024-32644,CRITICAL,github.com/evmos/evmos/v16,Go,Evmos transaction execution not accounting for all state transition after interaction with precompiles,
 GHSA-46cm-pfwv-cgf8,CVE-2024-2952,CRITICAL,litellm,PyPI,LiteLLM has Server-Side Template Injection vulnerability in /completions endpoint,
-GHSA-29rc-vq7f-x335,CVE-2024-27348,CRITICAL,org.apache.hugegraph:hugegraph-api,Maven,Apache HugeGraph-Server: Command execution in gremlin,1
+GHSA-29rc-vq7f-x335,CVE-2024-27348,CRITICAL,org.apache.hugegraph:hugegraph-api,Maven,Apache HugeGraph-Server: Command execution in gremlin,
 GHSA-wx43-g55g-2jf4,CVE-2024-2029,CRITICAL,github.com/go-skynet/LocalAI,Go,LocalAI Command Injection in audioToWav,
 GHSA-r5vh-gc3r-r24w,CVE-2024-31988,CRITICAL,org.xwiki.platform:xwiki-platform-realtime-ui,Maven,XWiki Platform CSRF remote code execution through the realtime HTML Converter API,
 GHSA-x4wf-678h-2pmq,CVE-2024-3660,CRITICAL,keras,PyPI,Keras code injection vulnerability,
@@ -20149,7 +20149,7 @@ GHSA-q5fm-55c2-v6j9,,CRITICAL,fiona,PyPI,Fiona affected by CVE-2023-45853 relate
 GHSA-p528-3mvf-gr87,CVE-2024-37084,CRITICAL,org.springframework.cloud:spring-cloud-skipper,Maven,Remote code execution in Spring Cloud Data Flow,
 GHSA-cgcg-p68q-3w7v,CVE-2024-21513,CRITICAL,langchain-experimental,PyPI,langchain-experimental vulnerable to Arbitrary Code Execution,
 GHSA-5grx-v727-qmq6,CVE-2024-39907,CRITICAL,github.com/1Panel-dev/1Panel,Go,1Panel has an SQL injection issue related to the orderBy clause,
-GHSA-6jj6-gm7p-fcvv,CVE-2024-36401,CRITICAL,org.geoserver.web:gs-web-app,Maven,Remote Code Execution (RCE) vulnerability in geoserver,1
+GHSA-6jj6-gm7p-fcvv,CVE-2024-36401,CRITICAL,org.geoserver.web:gs-web-app,Maven,Remote Code Execution (RCE) vulnerability in geoserver,
 GHSA-5g3x-8g2v-r8x8,CVE-2024-36533,CRITICAL,github.com/volcano-sh/volcano,Go,Volcano has insecure permissions,
 GHSA-wm25-j4gw-6vr3,,CRITICAL,github.com/prest/prest,Go,pREST vulnerable to jwt bypass + sql injection,
 GHSA-h63h-5c77-77p5,CVE-2024-37901,CRITICAL,org.xwiki.platform:xwiki-platform-search-ui,Maven,XWiki Platform vulnerable to remote code execution from account via SearchSuggestConfigSheet,
@@ -20202,7 +20202,7 @@ GHSA-4hvc-qwr2-f8rv,CVE-2023-42809,CRITICAL,org.redisson:redisson,Maven,Redisson
 GHSA-pv4p-cwwg-4rph,CVE-2024-42005,CRITICAL,Django,PyPI,Django SQL injection vulnerability,
 GHSA-qmp9-2xwj-m6m9,CVE-2024-22406,CRITICAL,shopware/core,Packagist,Blind SQL injection in shopware,
 GHSA-jgxc-8mwq-9xqw,CVE-2017-20189,CRITICAL,org.clojure:clojure,Maven,Clojure classes can be used to craft a serialized object that runs arbitrary code on deserialization,
-GHSA-6f9g-cxwr-q5jr,CVE-2024-23897,CRITICAL,org.jenkins-ci.main:jenkins-core,Maven,Arbitrary file read vulnerability through the Jenkins CLI can lead to RCE,1
+GHSA-6f9g-cxwr-q5jr,CVE-2024-23897,CRITICAL,org.jenkins-ci.main:jenkins-core,Maven,Arbitrary file read vulnerability through the Jenkins CLI can lead to RCE,
 GHSA-9xg9-hh45-xcm6,CVE-2023-51784,CRITICAL,org.apache.inlong:manager-pojo,Maven,Apache InLong Manager Remote Code Execution vulnerability,
 GHSA-xvq9-4vpv-227m,CVE-2024-23827,CRITICAL,github.com/0xJacky/Nginx-UI,Go,Nginx-UI vulnerable to arbitrary file write through the Import Certificate feature,
 GHSA-wjc4-73q6-gv3m,CVE-2023-46308,CRITICAL,plotly/plotly.js,Packagist,plotly.js prototype pollution vulnerability,
@@ -20263,7 +20263,7 @@ GHSA-cf3q-vg8w-mw84,CVE-2024-29868,CRITICAL,org.apache.streampipes:streampipes-r
 GHSA-878h-rqcq-mv3x,CVE-2024-37273,CRITICAL,@janhq/core,npm,Jan path traversal vulnerability,
 GHSA-v42g-7q2x-cw32,,CRITICAL,zendframework/zendframework1,Packagist,"Zendframework1 potential SQL injection vector using null byte for PDO (MsSql, SQLite)",
 GHSA-fvcq-4x64-hqxr,CVE-2024-35225,CRITICAL,jupyter-server-proxy,PyPI,Jupyter Server Proxy has a reflected XSS issue in host parameter,
-GHSA-m8cj-3v68-3cxj,CVE-2024-34102,CRITICAL,magento/community-edition,Packagist,Magento Open Source affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability,1
+GHSA-m8cj-3v68-3cxj,CVE-2024-34102,CRITICAL,magento/community-edition,Packagist,Magento Open Source affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability,
 GHSA-mr7h-w2qc-ffc2,CVE-2024-5980,CRITICAL,lightning,PyPI,pytorch-lightning vulnerable to Arbitrary File Write via /v1/runs API endpoint,
 GHSA-f4fj-q6m4-cc52,,CRITICAL,zendframework/zend-xmlrpc,Packagist,ZendFramework vulnerable to XXE/XEE attacks,
 GHSA-8x2v-pcg7-94f4,,CRITICAL,zendframework/zend-json,Packagist,Zend-JSON vulnerable to XXE/XEE attacks,
@@ -20511,7 +20511,7 @@ GHSA-7p92-x423-vwj6,,CRITICAL,github.com/consensys/gnark,Go,Plonk verifier KZG m
 GHSA-93gh-jgjj-r929,CVE-2023-45137,CRITICAL,org.xwiki.platform:xwiki-platform-web-templates,Maven,XWiki Platform vulnerable to XSS with edit right in the create document form for existing pages,
 GHSA-q74f-rf27-8hxc,CVE-2023-46502,CRITICAL,org.opencrx:opencrx-client,Maven,OpenCRX allows a remote attacker to execute arbitrary code via a crafted request,
 GHSA-gjjr-63x4-v8cq,CVE-2023-44467,CRITICAL,langchain-experimental,PyPI,langchain_experimental vulnerable to arbitrary code execution via PALChain in the python exec method,
-GHSA-crg9-44h2-xw35,CVE-2023-46604,CRITICAL,org.apache.activemq:activemq-client,Maven,Apache ActiveMQ is vulnerable to Remote Code Execution,1
+GHSA-crg9-44h2-xw35,CVE-2023-46604,CRITICAL,org.apache.activemq:activemq-client,Maven,Apache ActiveMQ is vulnerable to Remote Code Execution,
 GHSA-h2rm-29ch-wfmh,CVE-2023-45144,CRITICAL,com.xwiki.identity-oauth:identity-oauth-ui,Maven,XWiki Identity Oauth Privilege escalation (PR)/remote code execution from login screen through unescaped URL parameter,
 GHSA-8h5w-f6q9-wg35,CVE-2023-32785,CRITICAL,langchain,PyPI,Langchain SQL Injection vulnerability,
 GHSA-gr82-8fj2-ggc3,CVE-2023-45134,CRITICAL,org.xwiki.platform:xwiki-platform-web-templates,Maven,XWiki Platform XSS vulnerability from account in the create page form via template provider,
@@ -20576,7 +20576,7 @@ GHSA-9m93-w8w6-76hh,CVE-2023-3696,CRITICAL,mongoose,npm,Mongoose Prototype Pollu
 GHSA-pmhc-2g4f-85cg,CVE-2023-34478,CRITICAL,org.apache.shiro:shiro-web,Maven,Path Traversal in Apache Shiro,
 GHSA-vf78-3q9f-92g3,,CRITICAL,org.folio:mod-data-export-spring,Maven,Hard-coded System User Credentials in Folio Data Export Spring module ,
 GHSA-fx3v-4w3w-wpwr,CVE-2023-39021,CRITICAL,com.wix:wix-embedded-mysql,Maven,Code injection in wix-embedded-mysql,
-GHSA-x3cq-8f32-5f63,CVE-2023-33246,CRITICAL,org.apache.rocketmq:rocketmq-broker,Maven,Apache RocketMQ may have remote code execution vulnerability when using update configuration function,1
+GHSA-x3cq-8f32-5f63,CVE-2023-33246,CRITICAL,org.apache.rocketmq:rocketmq-broker,Maven,Apache RocketMQ may have remote code execution vulnerability when using update configuration function,
 GHSA-m5h8-2pjw-vg3j,CVE-2022-46365,CRITICAL,org.apache.streampark:streampark,Maven,Apache StreamPark Improper Input Validation vulnerability,
 GHSA-hg6c-qqcm-r79r,CVE-2023-35797,CRITICAL,apache-airflow-providers-apache-hive,PyPI,Apache Airflow Hive Provider Beeline remote code execution with Principal,
 GHSA-p6hw-wm59-3g5g,CVE-2023-38686,CRITICAL,matrix-sydent,PyPI,Sydent does not verify email server certificates,
@@ -20618,7 +20618,7 @@ GHSA-j2gj-g3p9-7mrr,CVE-2023-4696,CRITICAL,github.com/usememos/memos,Go,Account 
 GHSA-pj98-2xf6-cff5,CVE-2019-19450,CRITICAL,reportlab,PyPI,ReportLab vulnerable to remote code execution via paraparser,
 GHSA-rjqg-3h9m-fx5x,CVE-2023-5256,CRITICAL,drupal/core,Packagist,Cache poisoning in drupal/core,
 GHSA-f73w-4m7g-ch9x,CVE-2023-39631,CRITICAL,langchain,PyPI,Langchain vulnerable to arbitrary code execution via the evaluate function in the numexpr library,
-GHSA-v92f-jx6p-73rx,CVE-2022-24816,CRITICAL,it.geosolutions.jaiext.jiffle:jt-jiffle,Maven,Improper Control of Generation of Code ('Code Injection') in jai-ext,1
+GHSA-v92f-jx6p-73rx,CVE-2022-24816,CRITICAL,it.geosolutions.jaiext.jiffle:jt-jiffle,Maven,Improper Control of Generation of Code ('Code Injection') in jai-ext,
 GHSA-v5wf-jg37-r9m5,CVE-2023-42454,CRITICAL,sqlpage,crates.io,SQLpage vulnerable to public exposure of database credentials,
 GHSA-vpjc-4jcv-jc29,CVE-2022-28357,CRITICAL,github.com/nats-io/nats-server,Go,NATS nats-server allows directory traversal via unintended path to a management action ,
 GHSA-p46g-8c3q-89p2,CVE-2023-31719,CRITICAL,fuxa-server,npm,FUXA SQL Injection vulnerability,
@@ -20925,7 +20925,7 @@ GHSA-x92h-wmg2-6hp7,CVE-2019-10913,CRITICAL,symfony/http-foundation,Packagist,In
 GHSA-4ppp-gpcr-7qf6,,CRITICAL,waitress,PyPI,HTTP Request Smuggling: Content-Length Sent Twice in Waitress,
 GHSA-w457-6q6x-cgp9,CVE-2019-19919,CRITICAL,handlebars,npm,Prototype Pollution in handlebars,
 GHSA-79gr-58r3-pwm3,CVE-2019-18889,CRITICAL,symfony/cache,Packagist,Symfony Unsafe Cache Serialization Could Enable RCE,
-GHSA-h47j-hc6x-h3qq,CVE-2019-10758,CRITICAL,mongo-express,npm,Remote Code Execution Vulnerability in NPM mongo-express,1
+GHSA-h47j-hc6x-h3qq,CVE-2019-10758,CRITICAL,mongo-express,npm,Remote Code Execution Vulnerability in NPM mongo-express,
 GHSA-7qmm-q394-fmch,CVE-2021-23355,CRITICAL,ps-kill,npm,Command Injection in ps-kill,
 GHSA-3wj8-vp9h-rm6m,CVE-2021-23344,CRITICAL,total.js,npm,total.js Remote Code Execution Vulnerability,
 GHSA-qr4p-c9wr-phr6,CVE-2020-28273,CRITICAL,set-in,npm,Prototype pollution in set-in,
@@ -20934,7 +20934,7 @@ GHSA-8mrf-64fw-2x75,CVE-2020-8298,CRITICAL,fs-path,npm,Command injection in fs-p
 GHSA-qc65-cgvr-93p6,CVE-2021-23356,CRITICAL,kill-process-by-name,npm,Code injection in kill-process-by-name,
 GHSA-wq4r-8342-jmc9,CVE-2021-28381,CRITICAL,fluidtypo3/vhs,Packagist,SQL injection in vhs (aka VHS: Fluid ViewHelpers),
 GHSA-874w-m2v2-mj64,CVE-2019-15151,CRITICAL,adplug,NuGet,Double Free in Adplug,
-GHSA-4qwp-7c67-jmcc,CVE-2021-3129,CRITICAL,facade/ignition,Packagist,Unauthenticated remote code execution in Ignition,1
+GHSA-4qwp-7c67-jmcc,CVE-2021-3129,CRITICAL,facade/ignition,Packagist,Unauthenticated remote code execution in Ignition,
 GHSA-8q59-q68h-6hv4,CVE-2020-14343,CRITICAL,PyYAML,PyPI,Improper Input Validation in PyYAML,
 GHSA-qmw8-3v4g-gwj4,CVE-2021-21321,CRITICAL,fastify-reply-from,npm,Prefix escape,
 GHSA-4rv9-5vc4-88cg,CVE-2020-7785,CRITICAL,node-ps,npm,Command injection in node-ps,
@@ -20966,7 +20966,7 @@ GHSA-3pqx-4fqf-j49f,CVE-2019-20477,CRITICAL,pyyaml,PyPI,Deserialization of Untru
 GHSA-45w5-pvr8-4rh5,CVE-2021-26275,CRITICAL,eslint-fixer,npm,Command injection in eslint-fixer,
 GHSA-prmc-5v5w-c465,,CRITICAL,nats,npm,Client TLS credentials sent raw to server in npm package nats,
 GHSA-27fj-mc8w-j9wg,CVE-2021-30246,CRITICAL,jsrsasign,npm,RSA signature validation vulnerability on maleable encoded message in jsrsasign,
-GHSA-hhx9-p69v-cx2j,CVE-2020-13927,CRITICAL,apache-airflow,PyPI,Authentication bypass in Apache Airflow,1
+GHSA-hhx9-p69v-cx2j,CVE-2020-13927,CRITICAL,apache-airflow,PyPI,Authentication bypass in Apache Airflow,
 GHSA-ph32-23p8-9rw5,CVE-2019-10786,CRITICAL,network-manager,npm,Improper Input Validation in network-manager,
 GHSA-6g3c-2mh5-7q6x,CVE-2021-29451,CRITICAL,com.manydesigns:portofino-dispatcher,Maven,Missing validation of JWT signature in `ManyDesigns/Portofino`,
 GHSA-67mm-m3wx-j7fr,CVE-2021-26541,CRITICAL,gitlog,npm,Command injection in gitlog,
@@ -21322,7 +21322,7 @@ GHSA-wpgh-hmv4-r3v5,CVE-2021-25928,CRITICAL,safe-obj,npm,Prototype pollution in 
 GHSA-xx8f-qf9f-5fgw,CVE-2021-3007,CRITICAL,zendframework/zendframework,Packagist,Remote code execution in zendframework and laminas-http,
 GHSA-hpr6-f4vq-mxch,CVE-2021-32090,CRITICAL,localstack,PyPI,Command injection in LocalStack,
 GHSA-j858-xp5v-f8xx,CVE-2021-33564,CRITICAL,dragonfly,RubyGems,Dragonfly contains remote code execution vulnerability,
-GHSA-j239-4gqg-5j54,CVE-2017-1000486,CRITICAL,org.primefaces:primefaces,Maven,Inadequate Encryption Strength,1
+GHSA-j239-4gqg-5j54,CVE-2017-1000486,CRITICAL,org.primefaces:primefaces,Maven,Inadequate Encryption Strength,
 GHSA-cf55-rq8x-hm6f,CVE-2021-33497,CRITICAL,github.com/dutchcoders/transfer.sh,Go,Path Traversal in Dutchcoders transfer.sh,
 GHSA-m6gx-rhvj-fh52,,CRITICAL,github.com/ethereum/go-ethereum,Go,Denial of service in go-ethereum due to CVE-2020-28362,
 GHSA-2f88-5hg8-9x2x,CVE-2021-26291,CRITICAL,org.apache.maven:maven-compat,Maven,Origin Validation Error in Apache Maven,
@@ -21356,7 +21356,7 @@ GHSA-7q9f-x6rm-qmxr,CVE-2020-7635,CRITICAL,compass-compile,npm,Command Injection
 GHSA-33gc-6cw9-w3g4,CVE-2021-36564,CRITICAL,topthink/framework,Packagist,Deserialization of Untrusted Data in topthink/framework,
 GHSA-3q9x-w53p-jg53,CVE-2020-7634,CRITICAL,heroku-addonpool,npm,OS Command Injection in heroku-addonpool,
 GHSA-68wm-pfjf-wqp6,CVE-2021-32637,CRITICAL,github.com/authelia/authelia/v4,Go,Authelia vulnerable to an authentication bypassed with malformed request URI on nginx,
-GHSA-jfh8-c2jp-5v3q,CVE-2021-44228,CRITICAL,org.apache.logging.log4j:log4j-core,Maven,Remote code injection in Log4j,1
+GHSA-jfh8-c2jp-5v3q,CVE-2021-44228,CRITICAL,org.apache.logging.log4j:log4j-core,Maven,Remote code injection in Log4j,
 GHSA-m9hp-7r99-94h5,CVE-2020-26290,CRITICAL,github.com/dexidp/dex,Go,Critical security issues in XML encoding in github.com/dexidp/dex,
 GHSA-74r6-grj9-8rq6,CVE-2021-23758,CRITICAL,AjaxNetProfessional,NuGet,Remote Code Execution in AjaxNetProfessional,
 GHSA-j7c3-96rf-jrrp,,CRITICAL,de.averbis.textanalysis:pear-archetype,Maven,Critical vulnerability in log4j may affect generated PEAR projects,
@@ -21366,7 +21366,7 @@ GHSA-q868-c4vw-qjx3,CVE-2021-44350,CRITICAL,topthink/framework,Packagist,ThinkPH
 GHSA-7fm6-gxqg-2pwr,CVE-2021-23389,CRITICAL,total.js,npm,Code Injection in total.js,
 GHSA-792j-9wj3-j634,CVE-2021-44684,CRITICAL,github-todos,npm,Command injection in github-todos,
 GHSA-pfmw-vj74-ph8g,CVE-2021-43998,CRITICAL,github.com/hashicorp/vault,Go,HashiCorp Vault Incorrect Permission Assignment for Critical Resource,
-GHSA-7rjr-3q55-vv33,CVE-2021-45046,CRITICAL,org.apache.logging.log4j:log4j-core,Maven,Incomplete fix for Apache Log4j vulnerability,1
+GHSA-7rjr-3q55-vv33,CVE-2021-45046,CRITICAL,org.apache.logging.log4j:log4j-core,Maven,Incomplete fix for Apache Log4j vulnerability,
 GHSA-xxfh-x98p-j8fr,,CRITICAL,org.ops4j.pax.logging:pax-logging-log4j2,Maven,Remote code injection in Log4j (through pax-logging-log4j2),
 GHSA-m3fm-h5jp-q79p,CVE-2016-1906,CRITICAL,github.com/openshift/origin,Go,Authorization bypass in Openshift,
 GHSA-2wr2-8qjq-gh55,CVE-2021-23264,CRITICAL,org.craftercms:crafter-search,Maven,Exposure of Resource to Wrong Sphere in org.craftercms:crafter-search,
@@ -21869,7 +21869,7 @@ GHSA-r5gm-4p5w-pq2p,CVE-2019-19576,CRITICAL,verot/class.upload.php,Packagist,Rem
 GHSA-6vwp-35w3-xph8,CVE-2019-17570,CRITICAL,org.apache.xmlrpc:xmlrpc,Maven,Insecure Deserialization in Apache XML-RPC,
 GHSA-5wm5-8q42-rhxg,CVE-2020-1963,CRITICAL,org.apache.ignite:ignite-core,Maven,File system access via H2 in Apache Ignite,
 GHSA-q3gh-5r98-j4h3,CVE-2020-14968,CRITICAL,jsrsasign,npm,RSA-PSS signature validation vulnerability by prepending zeros in jsrsasign,
-GHSA-c9hw-wf7x-jp9j,CVE-2020-1938,CRITICAL,org.apache.tomcat.embed:tomcat-embed-core,Maven,Improper Privilege Management in Tomcat,1
+GHSA-c9hw-wf7x-jp9j,CVE-2020-1938,CRITICAL,org.apache.tomcat.embed:tomcat-embed-core,Maven,Improper Privilege Management in Tomcat,
 GHSA-v8v8-6859-qxm4,CVE-2020-8149,CRITICAL,logkitty,npm,Arbitrary shell command execution in logkitty,
 GHSA-j3rh-8vwq-wh84,CVE-2019-16303,CRITICAL,generator-jhipster-kotlin,npm,JHipster Kotlin using insecure source of randomness `RandomStringUtils` before v1.2.0,
 GHSA-6q48-vjq2-mwcj,CVE-2020-7628,CRITICAL,umount,npm,Command Injection in umount,
@@ -21908,7 +21908,7 @@ GHSA-r4x2-3cq5-hqvp,CVE-2018-8014,CRITICAL,org.apache.tomcat.embed:tomcat-embed-
 GHSA-rrpm-pj7p-7j9q,CVE-2018-1260,CRITICAL,org.springframework.security.oauth:spring-security-oauth2,Maven,Spring Security OAuth vulnerable to remote code execution (RCE),
 GHSA-4cj8-g9cp-v5wr,CVE-2018-9206,CRITICAL,blueimp-file-upload,npm,Unrestricted Upload of File with Dangerous Type in blueimp-file-upload,
 GHSA-mr95-9rr4-668f,CVE-2018-16115,CRITICAL,com.typesafe.akka:akka-actor_2.11,Maven,Cryptographically Weak Pseudo-Random Number Generator (PRNG) in akka-actor,
-GHSA-4fq3-mr56-cg6r,CVE-2018-1273,CRITICAL,org.springframework.data:spring-data-commons,Maven,Spring Data Commons remote code injection vulnerability,1
+GHSA-4fq3-mr56-cg6r,CVE-2018-1273,CRITICAL,org.springframework.data:spring-data-commons,Maven,Spring Data Commons remote code injection vulnerability,
 GHSA-8vfm-4388-6rpc,CVE-2018-8027,CRITICAL,org.apache.camel:camel-core,Maven,Apache is vulnerable to XXE in XSD validation processor,
 GHSA-j8g6-2wh7-6439,CVE-2016-6809,CRITICAL,org.apache.tika:tika-core,Maven,Apache Tika allows Java code execution for serialized objects embedded in MATLAB files,
 GHSA-qxxx-2pp7-5hmx,CVE-2017-7525,CRITICAL,com.fasterxml.jackson.core:jackson-databind,Maven,jackson-databind is vulnerable to a deserialization flaw,
@@ -21937,7 +21937,7 @@ GHSA-4446-656p-f54g,CVE-2018-1000613,CRITICAL,org.bouncycastle:bcprov-jdk15on,Ma
 GHSA-hmq6-frv3-4727,CVE-2016-3720,CRITICAL,com.fasterxml.jackson.dataformat:jackson-dataformat-xml,Maven,jackson-dataformat-xml vulnerable to XML external entity (XXE),
 GHSA-758m-6g3q-g3hh,CVE-2017-7676,CRITICAL,org.apache.ranger:ranger,Maven,Policy resource matcher in Apache Ranger before 0.7.1 ignores characters after '' wildcard character,
 GHSA-xm6r-4466-mr74,CVE-2017-11467,CRITICAL,com.orientechnologies:orientdb-core,Maven,OrientDB vulnerable to Improper Privilage Management leading to arbitrary command injection,
-GHSA-j77q-2qqg-6989,CVE-2017-5638,CRITICAL,org.apache.struts:struts2-core,Maven,Apache Struts vulnerable to remote arbitrary command execution due to improper input validation,1
+GHSA-j77q-2qqg-6989,CVE-2017-5638,CRITICAL,org.apache.struts:struts2-core,Maven,Apache Struts vulnerable to remote arbitrary command execution due to improper input validation,
 GHSA-6xq8-pvg4-3mf3,CVE-2018-1000644,CRITICAL,org.eclipse.rdf4j:rdf4j-runtime,Maven,Eclipse RDF4j vulnerable to XML External Entitiy,
 GHSA-vf4q-8mr7-5c5c,CVE-2017-12634,CRITICAL,org.apache.camel:camel-castor,Maven,Camel-castor component in Apache Camel is vulnerable to Java object de-serialisation,
 GHSA-jg4f-jqm5-4mgq,CVE-2016-8628,CRITICAL,ansible,PyPI,Ansible fails to properly sanitize fact variables sent from the Ansible controller,
