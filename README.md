@@ -14,10 +14,10 @@ This script loads security advisories from the [GitHub Advisory Database](https:
 
 ## Usage
 #First do a git clone on the advisory DB from Github
-git clone git@github.com:github/advisory-database.git #this will create an "advisories" dir in your root folder
+<git clone git@github.com:github/advisory-database.git> #this will create an "advisories" dir in your root folder
 
 #Then clone this project
-git clone git@github.com:origamee/gh-advisory-project.git
+<git clone git@github.com:origamee/gh-advisory-project.git>
 
 #bash
 python3 project3.py
